@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+<meta charset="utf-8" />
+<title>Marcos Vinicius • Backend Portfolio</title>
+<link rel="shortcut icon" href="images/globe.png" type="image/x-icon">
+<!-- Meta tag for the page description, used by search engines -->
+<meta name="description" content="Portfolio of Marcos Vinicius, Backend Developer. Showcases projects in Java development, REST APIs, and scalable backend systems.">
+<!-- Meta tag for keywords, helps in SEO of the page -->
+<meta name="keywords" content="Java Developer, Backend Development, REST API, Microservices, Spring Boot, Java, Software Engineer, Java Portfolio">
+<meta name="author" content="Marcos Vinicius">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#c7ecff">
+
+<link href="images/favicon.png" rel="icon">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/plugin.min.css" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/darkmode.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<!--===================== NAV BAR =====================-->
+	<header class="header-pr nav-bg-w main-header navfix fixed-top menu-white">
+		<div class="container-fluid m-pad">
+			<div class="menu-header">
+				<div class="dsk-logo">
+					<a class="nav-brand" href="./">
+						<span class="signature-name">Portfólio Backend</span>						
+					</a>
+				</div>
+				
+				
+				<div class="custom-nav" role="navigation">
+					<ul class="nav-list">
+						<li class="sbmenu">
+							<a href="#home" class="menu-links">Início</a>
+						</li>
+						<li class="sbmenu">
+							<a href="#about" class="menu-links">Sobre</a>
+						</li>
+						<li class="sbmenu">
+							<a href="#services" class="menu-links">Habilidades</a>
+						</li>
+						<li class="sbmenu rpdropdown">
+							<a href="#portfolio" class="menu-links">Projetos</a>
+						</li>
+						<li class="sbmenu rpdropdown">
+							<a href="#contact" class="menu-links">Contato</a>
+						</li>						
+					</ul>
+
+					<ul class="nav-list right-end-btn ms-lg-5">
+						<li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+								class="btn-round- btn-br bg-btn2"><i class="fas fa-envelope"></i></a></li>
+
+						<li class="hidedesktop darkmodeswitch">
+							<div class="switch-wrapper"> <label class="switch" for="niwax"> <input type="checkbox"
+										id="niwax" /> <span class="slider round"></span> </label> </div>
+						</li>
+						<li class="hidedesktop"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+								class="btn-round- btn-br bg-btn2"><i class="fas fa-phone-alt"></i></a></li>
+						<li class="navm- hidedesktop"> <a class="toggle" href="#"><span></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!--===================== NAV BAR ANCHOR =====================-->
+	<nav id="main-nav">
+		<ul class="first-nav">
+			<li>
+				<a href="#home">Início</a>
+			</li>
+			<li>
+				<a href="#about">Sobre</a>
+			</li>
+			<li>
+				<a href="#services">Habilidades</a>
+			</li>
+			<li>
+				<a href="#portfolio">Projetos</a>
+			</li>
+			<li>
+				<a href="#contact">Contato</a>
+			</li>					
+		</ul>
+		<ul class="bottom-nav">
+			<li class="prb">
+				<a href="tel:+11111111111">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+						<path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
+						c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+						c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+						C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z" />
+					</svg>
+				</a>
+			</li>
+			<li class="prb">
+				<a href="/cdn-cgi/l/email-protection#34475b59514351565951505d55745359555d581a575b59">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+						<path d="M0 0h24v24H0z" fill="none" />
+					</svg>
+				</a>
+			</li>
+			<li class="prb">
+				<a href="skype:niwax.company?call">
+					<svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+						<path d="m23.309 14.547c1.738-7.81-5.104-14.905-13.139-13.543-4.362-2.707-10.17.352-10.17 5.542 0 1.207.333 2.337.912 3.311-1.615 7.828 5.283 14.821 13.311 13.366 5.675 3.001 11.946-2.984 9.086-8.676zm-7.638 4.71c-2.108.867-5.577.872-7.676-.227-2.993-1.596-3.525-5.189-.943-5.189 1.946 0 1.33 2.269 3.295 3.194.902.417 2.841.46 3.968-.3 1.113-.745 1.011-1.917.406-2.477-1.603-1.48-6.19-.892-8.287-3.483-.911-1.124-1.083-3.107.037-4.545 1.952-2.512 7.68-2.665 10.143-.768 2.274 1.76 1.66 4.096-.175 4.096-2.207 0-1.047-2.888-4.61-2.888-2.583 0-3.599 1.837-1.78 2.731 2.466 1.225 8.75.816 8.75 5.603-.005 1.992-1.226 3.477-3.128 4.253z" />
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<!--============================= BOTÃO DE CONTATO ===================================-->
+<div class="niwaxofcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample">
+<div class="offcanvas-body">
+<div class="cbtn animation">
+	<div class="btnclose"> 
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+	</div>
+</div>
+<div class="form-block sidebarform">
+	<h4>Entre em Contato</h4>
+	<form id="contactForm" data-bs-toggle="validator" class="shake mt20">
+		<div class="row">
+			<div class="form-group col-sm-12">
+				<input type="text" id="name" placeholder="Digite o nome" required data-error="Por favor, preencha">
+				<div class="help-block with-errors"></div>
+			</div>
+			<div class="form-group col-sm-12">
+				<input type="email" id="email" placeholder="Digite o email" required>
+				<div class="help-block with-errors"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group col-sm-12">
+				<input type="text" id="mobile" placeholder="Digite o celular" required data-error="Por favor, preencha">
+				<div class="help-block with-errors"></div>
+			</div>
+			<div class="form-group col-sm-12">
+				<select name="Dtype" id="Dtype" required>
+					<option value="">Selecione o Tipo de Requisição</option>
+					<option value="backend">Desenvolvedor Backend</option>
+					<option value="java">Especialista em Java</option>
+					<option value="spring">Especialista em Spring Boot</option>
+					<option value="database">Engenheiro de Banco de Dados</option>
+					<option value="api">Desenvolvedor de APIs</option>
+					<option value="system">Analista de Sistemas</option>
+					<option value="cloud">Desenvolvedor em Nuvem</option>
+				</select>
+				<div class="help-block with-errors"></div>
+			</div>
+			
+		</div>
+		<div class="form-group">
+			<textarea id="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+			<div class="help-block with-errors"></div>
+		</div>
+		<button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Enviar <span class="circle"></span></button>
+		<div id="msgSubmit" class="h3 text-center hidden"></div>
+		<div class="clearfix"></div>
+	</form>
+</div>
+<div class="getintouchblock mt30">
+	<h4>Entre em Contato</h4>
+	<p class="mt10">Por favor, preencha o formulário abaixo se você tem um plano ou projeto em mente que gostaria de compartilhar conosco.</p>
+	<div class="media mt15">
+		<div class="icondive"><img src="images/icons/call.svg" alt="ícone"></div>
+		<div class="media-body getintouchinfo">
+			<a href="tel:123456790">(71) 9 92052035
+				<span>Seg-Sex 9h - 18h</span>
+			</a>
+		</div>
+	</div>
+	<div class="media mt15">
+		<div class="icondive"><img src="images/icons/whatsapp.svg" alt="ícone"></div>
+		<div class="media-body getintouchinfo">
+			<a href="tel:123456790">(71) 9 92052035
+				<span>Seg-Sex 9h - 18h</span>
+			</a>
+		</div>
+	</div>
+	<div class="media mt15">
+		<div class="icondive"><img src="images/icons/mail.svg" alt="ícone"></div>
+		<div class="media-body getintouchinfo">
+			<a href="/cdn-cgi/l/email-protection#a6cfc8c0c9e6d1c3c4d5cfd2c388c5c9cb"><span class="__cf_email__" data-cfemail="bed7d0d8d1fec9dbdccdd7cadb90ddd1d3">info@gmail.com</span>
+				<span>Suporte Online</span>
+			</a>
+		</div>
+	</div>
+	<div class="media mt15">
+		<div class="icondive"><img src="images/icons/map.svg" alt="ícone"></div>
+		<div class="media-body getintouchinfo">
+			<a href="/cdn-cgi/l/email-protection#8be2e5ede4cbfceee9f8e2ffeea5e8e4e6">Salvador - Bahia
+				<span>Endereço</span>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="contact-data mt30">
+	<h4>Siga-nos em:</h4>
+	<div class="social-media-linkz mt10">
+		<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+		<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+		<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+		<a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+	</div>
+	
+</div>
+</div>
+</div>
+
+
+<!--======================= HOME =======================-->
+
+<section id="home" class="hero-section hero-bg-bg1 bg-gradient dark-bg1">
+<div class="text-block">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6 v-center">
+			<div class="header-heading">
+				<h1 style="margin-bottom: 1px;">Olá, eu sou <span style="color: #2E8B57;">Marcos</span></h1> <!-- Reduzir margem inferior -->
+				<h1 style="margin-bottom: 5px;"><span class="typedText"></span></h1> <!-- Reduzir margem inferior -->
+				<p style="margin-bottom: 10px;">Desenvolvedor backend especializado em Java e Spring Boot, criando soluções eficientes e escaláveis.</p>
+				<a href="#" class="btn-main bg-btn lnk">Baixar CV
+				<i class="fas fa-file-download fa-icon"></i><span class="circle"></span></a>
+			</div>
+		</div>
+		<div class="col-lg-6 v-center">
+			<div class="single-image">
+				<img src="images/hero/img-2.svg" alt="desenvolvimento web" class="img-fluid" />
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="scroll-icon-box">
+	<a href="#about" class="scroll-btn">
+	<img src="images/icons/scroll10.gif" alt="Scroll Down">
+	</a>
+</div>
+</section>
+
+<!--======================= SOBRE ========================-->
+<style>
+/* Estilos CSS para justificar os parágrafos */
+#about p {
+text-align: justify;
+margin-bottom: 20px;
+}
+/* Adicione outros estilos CSS conforme necessário para melhorar o design */	
+</style>
+
+<section id="about" class="about-agency pad-tb">
+<div class="container">
+<div class="row">
+	<div class="col-lg-6 v-center">
+		<div class="image-block">
+			<img src="images/hero/img-34.svg" alt="sobre" class="img-fluid no-shadow" />
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="common-heading text-l">
+			<span>Sobre Mim</span>
+			<h4>Minha Introdução</h4>
+
+			<p>Olá, eu sou Marcos Vinicius, estudante de Ciência da Computação com uma profunda paixão por ficção científica e filmes. Minha jornada na tecnologia é guiada por uma curiosidade insaciável e um compromisso com a inovação. Como desenvolvedor backend especializado em Java e Spring Boot, mergulho na complexidade dos sistemas para criar soluções robustas e eficientes. Tenho um talento para otimizar fluxos de trabalho, garantir a integridade dos dados e arquitetar sistemas escaláveis que atendem às demandas de alto desempenho.</p>
+			<p>Minha experiência inclui a construção de APIs seguras, a integração de sistemas e a implementação de soluções que não apenas resolvem problemas, mas também antecipam necessidades futuras. Cada desafio é uma oportunidade para aplicar meu conhecimento técnico de forma criativa e prática, transformando ideias em soluções reais e impactantes.</p>
+
+			<!-- Citação -->
+			<p class="quote">"A simplicidade é a sofisticação máxima." – Leonardo da Vinci</p>
+			<div class="user- mt30">
+				<div class="media">
+					<div class="user-image bdr-radius"><img src="images/user-thumb/perfil.jpeg" alt="perfil" class="img-fluid" /></div>
+					<div class="media-body user-info v-center">
+						<h5>Marcos Vinicius</h5>
+						<p>Desenvolvedor <span>Backend</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</div>
+</section>
+
+<!--===================== SKILLS =====================-->
+<section id="services" class="work-category pad-tb tilt3d">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="common-heading">
+                    <span>Habilidades</span>
+                    <h4 class="mb30">Maximize o desempenho e a escalabilidade do seu backend com minha experiência.</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row upset">
+            <div class="col-lg-4 col-sm-6 mt30">
+                <div class="s-block up-hor">
+                    <div class="s-card-icon">
+                        <img
+                            src="https://img.icons8.com/ios/50/000000/programming.png"
+                            alt="Ícone de Linguagens de Programação"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <h4>Linguagens</h4>
+                    <p>
+                        Profundo conhecimento em Java, Python e SQL, aplicado para criar soluções backend robustas e escaláveis. Expertise em transformar requisitos complexos em código eficiente e funcional.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 mt30">
+                <div class="s-block up-hor">
+                    <div class="s-card-icon">
+                        <img
+                            src="https://img.icons8.com/ios/50/000000/workflow.png"
+                            alt="Ícone do Spring"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <h4>Frameworks</h4>
+                    <p>
+						Experiência com Spring Boot e Spring Data para criar aplicações empresariais escaláveis. Habilidade em usar JPA para ORM e otimizar o desempenho com práticas avançadas de desenvolvimento.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 mt30">
+                <div class="s-block up-hor">
+                    <div class="s-card-icon">
+                        <img
+                            src="https://img.icons8.com/ios/50/000000/database.png"
+                            alt="Ícone de banco de dados"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <h4>Banco de Dados</h4>
+                    <p>
+                        Expertise em bancos de dados relacionais como MySQL e NoSQL como MongoDB. Competência em utilizar JDBC e frameworks para gestão de dados, garantindo alta performance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 mt30">
+                <div class="s-block up-hor">
+                    <div class="s-card-icon">
+                        <img
+                            src="https://img.icons8.com/ios/50/000000/chat.png"
+                            alt="Ícone de comunicação"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <h4>Comunicação</h4>
+                    <p>
+                        Habilidade em comunicar conceitos técnicos de maneira clara para equipes e stakeholders. Capacidade de colaborar eficazmente em um ambiente de desenvolvimento ágil e multidisciplinar.
+                    </p>
+                </div>
+            </div>
+
+			<div class="col-lg-4 col-sm-6 mt30">
+				<div class="s-block up-hor">
+					<div class="s-card-icon">
+						<img
+							src="https://img.icons8.com/ios/50/000000/cloud.png"
+							alt="Ícone de AWS"
+							class="img-fluid"
+						/>
+					</div>
+					<h4>Computação em Nuvem</h4>
+					<p>
+						Capacidade de projetar, implementar e gerenciar soluções na AWS, garantindo escalabilidade, segurança e alta disponibilidade em ambientes de desenvolvimento e produção.
+					</p>
+				</div>
+			</div>
+
+
+
+            <div class="col-lg-4 col-sm-6 mt30">
+                <div class="s-block up-hor">
+                    <div class="s-card-icon">
+                        <img
+                            src="https://img.icons8.com/ios/50/000000/process.png"
+                            alt="Ícone de metodologias ágeis"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <h4>Metodologias Ágeis</h4>
+                    <p>
+                        Experiência com metodologias ágeis como Scrum e Kanban para gerenciar e otimizar processos de desenvolvimento. Promovo entregas rápidas e melhorias contínuas no software.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--===================== PORTFOLIO =====================-->
+<style>
+	.item-image {
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	}
+</style>
+
+<section id="portfolio" class="portfolio-section pad-tb">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="common-heading">
+					<span>Portfólio de Projetos</span>
+					<h4 class="mb0">Exemplos dos meus principais projetos de desenvolvimento backend em Java.</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			
+			<!-- Projeto 1 -->
+			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+				<div class="isotope_item">
+					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="Sistema de Gestão de Usuários" class="img-fluid" style="height: 250px; width: auto;" /></a>
+					</div>
+					<div class="item-info">
+						<div class="keywords">
+							<button class="keyword-btn">Java</button>
+							<button class="keyword-btn">Spring Boot</button>
+							<button class="keyword-btn">API REST</button>
+							<button class="keyword-btn">JPA</button>
+						</div>
+						<h4><a href="#">Sistema de Gestão de Usuários</a></h4>
+						<p>Desenvolvimento de uma aplicação backend para gestão de usuários, incluindo autenticação, autorização e gerenciamento de perfis, utilizando Spring Boot e JPA.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Projeto 2 -->
+			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+				<div class="isotope_item">
+					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="Sistema de E-commerce" class="img-fluid" style="height: 250px; width: auto;" /></a>
+					</div>
+					<div class="item-info">
+						<div class="keywords">
+							<button class="keyword-btn">Java</button>
+							<button class="keyword-btn">Spring Boot</button>
+							<button class="keyword-btn">Microservices</button>
+							<button class="keyword-btn">RabbitMQ</button>
+						</div>
+						<h4><a href="#">Sistema de E-commerce</a></h4>
+						<p>Criação de uma plataforma de e-commerce com microserviços, integrando processamento de pagamentos e gerenciamento de estoque com Spring Boot e RabbitMQ.</p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Projeto 3 -->
+			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+				<div class="isotope_item">
+					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="API para Gerenciamento de Dados" class="img-fluid" style="height: 250px; width: auto;" /></a>
+					</div>
+					<div class="item-info">
+						<div class="keywords">
+							<button class="keyword-btn">Java</button>
+							<button class="keyword-btn">Spring Boot</button>
+							<button class="keyword-btn">REST API</button>
+							<button class="keyword-btn">Hibernate</button>
+						</div>
+						<h4><a href="#">API para Gerenciamento de Dados</a></h4>
+						<p>Desenvolvimento de uma API RESTful para gerenciamento de dados, utilizando Hibernate para mapeamento objeto-relacional e Spring Boot para criação de endpoints.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Projeto 4 -->
+			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+				<div class="isotope_item">
+					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="Sistema de Monitoramento em Tempo Real" class="img-fluid" style="height: 250px; width: auto;" /></a>
+					</div>
+					<div class="item-info">
+						<div class="keywords">
+							<button class="keyword-btn">Java</button>
+							<button class="keyword-btn">Spring Boot</button>
+							<button class="keyword-btn">WebSocket</button>
+							<button class="keyword-btn">Kafka</button>
+						</div>
+						<h4><a href="#">Sistema de Monitoramento em Tempo Real</a></h4>
+						<p>Criação de um sistema para monitoramento em tempo real de eventos, utilizando Spring Boot para backend, WebSocket para comunicação em tempo real e Kafka para gerenciamento de mensagens.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Projeto 5 -->
+			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+				<div class="isotope_item">
+					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="Sistema de Gerenciamento de Tarefas" class="img-fluid" style="height: 250px; width: auto;" /></a>
+					</div>
+					<div class="item-info">
+						<div class="keywords">
+							<button class="keyword-btn">Java</button>
+							<button class="keyword-btn">Spring Boot</button>
+							<button class="keyword-btn">CRUD</button>
+							<button class="keyword-btn">PostgreSQL</button>
+						</div>
+						<h4><a href="#">Sistema de Gerenciamento de Tarefas</a></h4>
+						<p>Desenvolvimento de um sistema de gerenciamento de tarefas com operações CRUD, utilizando Spring Boot para o backend e PostgreSQL para o banco de dados.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Projeto 6 -->
+			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+				<div class="isotope_item">
+					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="Plataforma de Notificações" class="img-fluid" style="height: 250px; width: auto;" /></a>
+					</div>
+					<div class="item-info">
+						<div class="keywords">
+							<button class="keyword-btn">Java</button>
+							<button class="keyword-btn">Spring Boot</button>
+							<button class="keyword-btn">RabbitMQ</button>
+							<button class="keyword-btn">Microservices</button>
+						</div>
+						<h4><a href="#">Plataforma de Notificações</a></h4>
+						<p>Desenvolvimento de uma plataforma de notificações em tempo real utilizando Spring Boot para o backend e RabbitMQ para gerenciamento de filas de mensagens.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!--========================== CONTATO===========================-->
+<section id="contact" class="enquire-form pad-tb">
+<div class="container">
+<div class="row light-bgs">
+	<div class="col-lg-6">
+		<div class="common-heading text-l">
+			<span>Entre em Contato</span>
+			<h4 class="mt0">Tem Alguma Pergunta? Escreva uma Mensagem</h4>
+		</div>
+		<div class="form-block">
+			<form action="#" method="post" name="feedback-form">
+				<div class="fieldsets row">
+					<div class="col-md-6"><input type="text" placeholder="Nome Completo" name="name"></div>
+					<div class="col-md-6"><input type="email" placeholder="Endereço de Email" name="email"></div>
+				</div>
+				<div class="fieldsets row">
+					<div class="col-md-6"><input type="number" placeholder="Número de Contato" name="phone"></div>
+					<div class="col-md-6"><input type="text" placeholder="Assunto" name="subject"></div>
+				</div>
+				<div class="fieldsets"><textarea placeholder="Mensagem" name="message"></textarea></div>
+				<div class="custom-control custom-checkbox">
+					<input type="checkbox" class="custom-control-input" id="customCheck" name="example1" checked="checked">
+					<label class="custom-control-label" for="customCheck">Eu concordo com os <a href="javascript:void(0)">Termos &amp; Condições</a> da Nome da Empresa.</label>
+				</div>
+				<div class="fieldsets mt20">
+					<button type="submit" name="submit" class="lnk btn-main bg-btn">Enviar <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
+				</div>
+				<p class="trm"><i class="fas fa-lock"></i>Odiamos spam e respeitamos sua privacidade.</p>
+			</form>
+		</div>
+	</div>
+	<div class="col-lg-6 v-center">
+		<div class="enquire-image">
+			<img src="images/about/hellopic.png" alt="enquire" class="img-fluid" />
+		</div>
+	</div>
+</div>
+</div>
+</section>
+
+<!--========================= FOOTER =========================-->
+
+<footer>
+<div class="footer-row1">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="email-subs">
+				<h3>Receba Novos Insights Semanalmente</h3>
+				<p>Meu boletim informativo onde compartilho minhas últimas atualizações de visualização de dados. Se você gosta de gráficos, vai adorar minhas dicas e truques!</p>
+			</div>
+		</div>
+		<div class="col-lg-6 v-center">
+			<div class="email-subs-form">
+				<form>
+					<input type="email" placeholder="Digite Seu Email" name="emails">
+					<button type="submit" name="submit" class="lnk btn-main bg-btn">Inscrever-se <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="footer-row2">
+<div class="container">
+<div class="row justify-content-between">
+	<div class="col-lg-3 col-sm-6  ftr-brand-pp">
+		<a class="navbar-brand mt30 mb25 f-dark-logo" href="#"> <img src="images/logo.png"
+				alt="Logo" /></a>
+		<a class="navbar-brand mt30 mb25 f-white-logo" href="#"> <img src="images/logo.png"
+				alt="Logo" /></a>
+				<p>Obrigado por visitar meu portfólio. Sinta-se à vontade para explorar e deixar seus comentários.
+				</p>
+		<a href="#" class="btn-main bg-btn3 lnk mt20">Vamos Colaborar<i
+				class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+	</div>
+	
+	<div class="col-lg-2 col-sm-6">
+	<h5>Entre em Contato</h5>
+	<ul class="footer-address-list ftr-details">
+		<li>
+		<span><i class="fas fa-envelope"></i></span>
+		<p>Email <span> <a
+				href="/cdn-cgi/l/email-protection#7910171f16391b0c0a10171c0a0a1718141c571a1614"><span
+				class="__cf_email__"
+				data-cfemail="254c4b434a654750564c4b4056564b4448400b464a48">info@gmail.com</span></a></span>
+		</p>
+		</li>
+		<li>
+		<span><i class="fas fa-phone-alt"></i></span>
+		<p>Telefone<span> <a href="tel:+10000000000">(71) 9 92052035</a></span></p>
+		</li>
+		<li>
+		<span><i class="fas fa-map-marker-alt"></i></span>
+		<p>Endereço<span>Salvador - Bahia
+		</span></p>
+		</li>
+	</ul>
+	</div>
+	<div class="col-lg-2 col-sm-6">
+	<h5>Ajuda e Suporte</h5>
+	<ul class="footer-address-list link-hover">
+		<li><a href="#">Sobre Nós</a></li>
+		<li><a href="javascript:void(0)">FAQ</a></li>
+		<li><a href="javascript:void(0)">Política de Privacidade</a></li>
+		<li><a href="javascript:void(0)">Termos e Condições</a></li>
+		<li><a href="javascript:void(0)">Licença MIT</a></li>
+	</ul>
+	</div>
+	<div class="col-lg-4 col-sm-6 footer-blog-">
+	<h5>Postagens Recentes</h5>
+	<div class="single-blog-">
+		<div class="post-thumb"> <a href="https://giulianabezerra.medium.com/uma-breve-historia-do-java-f58d1761154" target="_blank"><img src="images\java (2).png" alt="blog"></a>
+		</div>
+		<div class="content">
+		<p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>Aug 16,
+			2022</span></p>
+		<h4 class="title">  <a href="https://giulianabezerra.medium.com/uma-breve-historia-do-java-f58d1761154" target="_blank">Uma breve história do Java
+			</a></h4>
+		</div>
+	</div>
+	<div class="single-blog-">
+		<div class="post-thumb"><a href="https://medium.com/introducao-a-arquitetura-de-microservicos/introdu%C3%A7%C3%A3o-a-microsservi%C3%A7os-25378269e6f9" target="_blank"><img src="images\microservice.png" alt="blog"></a>
+		</div>
+		<div class="content">
+		<p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>Jun 23,
+			2019</span></p>
+		<h4 class="title"><a href="https://medium.com/introducao-a-arquitetura-de-microservicos/introdu%C3%A7%C3%A3o-a-microsservi%C3%A7os-25378269e6f9"  target="_blank">Introdução a Microsserviços
+			</a></h4>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+
+<div class="footer-row3">
+<div class="copyright">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer-social-media-icons">
+				<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+				<a href="https://vimeo.com/" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+				<a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>
+				<a href="https://www.behance.net/" target="_blank"><i class="fab fa-behance"></i></a>
+			</div>
+			<div class="footer-">
+				<p>Copyright © 2024 | Portfólio • Marcos Vinicius</p>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</div>
+</div>
+</footer>
+
+<!--========================= JS =========================-->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<!-- Incluir biblioteca Typed.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/plugin.min.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/dark-mode.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

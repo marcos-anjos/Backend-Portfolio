@@ -1,0 +1,144 @@
+<!--===================== PORTFOLIO =====================-->
+<style>
+	.item-image {
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	}
+</style>
+
+<section id="portfolio" class="portfolio-section pad-tb">
+	<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-lg-8">
+			<div class="common-heading">
+				<span>Portfólio de Dados</span>
+				<h4 class="mb0">Um vislumbre dos meus principais projetos de análise de dados.</h4>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		
+		<!-- Projeto 1 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-20.png" alt="Power BI Project" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Análise de Dados</button>
+						<button class="keyword-btn">Stack Overflow</button>
+						<button class="keyword-btn">Visualização de Dados</button>
+						<button class="keyword-btn">Aplicação Web</button>
+						<button class="keyword-btn">Streamlit</button>
+					</div>
+					<h4><a href="#">Aplicação Web do Survey Anual do Stack Overflow</a></h4>
+					<p>Analise e visualize dados da pesquisa anual do Stack Overflow utilizando uma aplicação web.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Projeto 2 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-3.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Python</button>
+						<button class="keyword-btn">K-Means</button>
+						<button class="keyword-btn">Segmentação de Clientes</button>
+						<button class="keyword-btn">Scikit-Learn</button>
+					</div>
+					<h4><a href="#">Análise de Clusters de Clientes em Supermercados</a></h4>
+					<p>Segmentação de clientes de supermercados com K-Means para análise comportamental.</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Projeto 3 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-2.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Regras de associação</button>
+						<button class="keyword-btn">Cross-selling</button>
+						<button class="keyword-btn">Gestão de Estoque</button>
+						<button class="keyword-btn">Merchandising</button>
+					</div>
+					<h4><a href="#">Market Basket Analysis do Instacart</a></h4>
+					<p>Estudo de regras de associação no Instacart para otimização estoque.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Projeto 4 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-24.jpg" alt="Dashboard de Preços de Criptomoedas da Binance" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Binance</button>
+						<button class="keyword-btn">criptomoedas</button>
+						<button class="keyword-btn">preço</button>
+						<button class="keyword-btn">API</button>
+						<button class="keyword-btn">streamlit</button>
+						<button class="keyword-btn">dashboard</button>
+					</div>
+					<h4><a href="#">Dashboard de Preços de Criptomoedas da Binance</a></h4>
+					<p>Monitoramento em tempo real de preços de criptomoedas na Binance.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Projeto 5 -->				
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="http://localhost:8501" target="_blank"><img src="images\portfolio\img-25.jpg" alt="Prevenção à Lavagem de Dinheiro" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Prevenção</button>
+						<button class="keyword-btn">Lavagem de Dinheiro</button>
+						<button class="keyword-btn">Análise de Dados</button>
+						<button class="keyword-btn">Machine Learning</button>
+						<button class="keyword-btn">Fraude</button>
+						<button class="keyword-btn">Big Data</button>
+						<button class="keyword-btn">Streamlit</button>
+					</div>
+					<h4><a href="http://localhost:8501" target="_blank">Prevenção à Lavagem de Dinheiro</a></h4>
+					<p>Projeto de análise de dados e machine learning para prevenir lavagem de dinheiro.</p>				
+				</div>
+			</div>
+		</div>
+
+	
+		<!-- Projeto 6 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-10.jpeg" alt="Tableau Project" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Tableau</button>
+						<button class="keyword-btn">Dashboard</button>
+						<button class="keyword-btn">Vendas</button>
+						<button class="keyword-btn">Visualização Interativa</button>
+					</div>
+					<h4><a href="#">Dashboard Interativo com Tableau</a></h4>
+					<p>Análise de vendas e KPIs com visualização interativa utilizando Tableau.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+</section>

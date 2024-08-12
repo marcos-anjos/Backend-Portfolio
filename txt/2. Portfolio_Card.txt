@@ -1,0 +1,93 @@
+<!--===================== PORTFOLIO =====================-->
+<style>
+	.item-image {
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	}
+</style>
+
+<section id="portfolio" class="portfolio-section pad-tb">
+	<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-lg-8">
+			<div class="common-heading">
+				<span>Portfólio de Dados</span>
+				<h4 class="mb0">Um vislumbre dos meus principais projetos de análise de dados.</h4>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<!-- Projeto 1 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-1.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<h4><a href="#">Impacto dos Desastres no Brasil: Análise Interativa (1991-2023)</a></h4>
+					<p>Python, Mapa Interativo, Aplicação Web, Dash Plotly, Visualização</p>
+				</div>
+			</div>
+		</div>
+		<!-- Projeto 2 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-2.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<h4><a href="#">Market Basket Analysis do Instacart</a></h4>
+					<p>Regras de associação, MBA, Gestão de Estoque, Merchandising, Cross-selling</p>
+				</div>
+			</div>
+		</div>
+		<!-- Projeto 3 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-3.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<h4><a href="#">Análise de Clusters de Clientes em Supermercados</a></h4>
+					<p>Python, K-Means, Segmentação de Clientes, Scikit-Learn, Visualização</p>
+				</div>
+			</div>
+		</div>
+		<!-- Projeto 4 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\Gif\gif-9.gif" alt="Tableau Project" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<h4><a href="#">Visualização de Vendas Globais com Tableau</a></h4>
+					<p>Tableau, Dashboard, Vendas, KPIs, Visualização Interativa</p>
+				</div>
+			</div>
+		</div>
+		<!-- Projeto 5 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-8.jpg" alt="Power BI Project" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<h4><a href="#">Análise de Desempenho de Marketing com Power BI</a></h4>
+					<p>Power BI, Análise de Dados, Desempenho de Marketing, Visualização de Dados</p>
+				</div>
+			</div>
+		</div>
+		<!-- Projeto 6 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-9.jpg" alt="SQL Project" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<h4><a href="#">Gerenciamento de Dados de Vendas com SQL</a></h4>
+					<p>SQL, Banco de Dados, Consultas, Análise de Vendas, Gestão de Dados</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
