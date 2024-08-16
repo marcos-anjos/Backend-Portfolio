@@ -283,9 +283,9 @@ margin-bottom: 20px;
 			<span>Sobre Mim</span>
 			<h4>Minha Introdução</h4>
 
-			<p>Olá, eu sou Marcos Vinicius, estudante de Ciência da Computação com uma profunda paixão por ficção científica e filmes. Minha jornada na tecnologia é guiada por uma curiosidade insaciável e um compromisso com a inovação. Como desenvolvedor backend especializado em Java e Spring Boot, mergulho na complexidade dos sistemas para criar soluções robustas e eficientes. Tenho um talento para otimizar fluxos de trabalho, garantir a integridade dos dados e arquitetar sistemas escaláveis que atendem às demandas de alto desempenho.</p>
-			<p>Minha experiência inclui a construção de APIs seguras, a integração de sistemas e a implementação de soluções que não apenas resolvem problemas, mas também antecipam necessidades futuras. Cada desafio é uma oportunidade para aplicar meu conhecimento técnico de forma criativa e prática, transformando ideias em soluções reais e impactantes.</p>
-
+			<p>Olá, eu sou Marcos Vinicius, <span style="color:#2E8B57; font-weight:bold">estudante de Ciência da Computação</span> com uma paixão por ficção científica e cinema. Minha jornada na tecnologia é guiada por curiosidade e um compromisso com a inovação. Como <span style="color:#2E8B57; font-weight:bold">desenvolvedor backend</span>, tenho explorado <span style="color:#2E8B57; font-weight:bold">Java</span>, <span style="color:#2E8B57; font-weight:bold">Spring Boot</span>, <span style="color:#2E8B57; font-weight:bold">SQL</span>, <span style="color:#2E8B57; font-weight:bold">AWS</span>, <span style="color:#2E8B57; font-weight:bold">Git</span> e <span style="color:#2E8B57; font-weight:bold">versionamento de código</span> em projetos acadêmicos e pessoais. Trabalho para criar soluções robustas e eficientes, otimizando fluxos e garantindo a integridade dos dados.</p>
+			<p>Tenho experiência em <span style="color:#2E8B57; font-weight:bold">construção de APIs seguras</span> e <span style="color:#2E8B57; font-weight:bold">integração de sistemas</span>, sempre aplicando <span style="color:#2E8B57; font-weight:bold">Metodologias Ágeis</span> para criar soluções práticas e adaptáveis. Cada desafio é uma chance de aplicar minhas habilidades de <span style="color:#2E8B57; font-weight:bold">resolução de problemas</span>, <span style="color:#2E8B57; font-weight:bold">colaboração em equipe</span>, <span style="color:#2E8B57; font-weight:bold">comunicação clara</span> e <span style="color:#2E8B57; font-weight:bold">adaptação rápida</span> para transformar ideias em resultados impactantes.</p>
+			
 			<!-- Citação -->
 			<p class="quote">"A simplicidade é a sofisticação máxima." – Leonardo da Vinci</p>
 			<div class="user- mt30">
@@ -420,7 +420,10 @@ margin-bottom: 20px;
 <!--===================== PORTFOLIO =====================-->
 <style>
 	.item-image {
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+	}
+	#portfolio p {
+		text-align: justify; /* Alinha o texto dos parágrafos dentro do portfólio */
 	}
 </style>
 
@@ -430,7 +433,7 @@ margin-bottom: 20px;
 			<div class="col-lg-8">
 				<div class="common-heading">
 					<span>Portfólio de Projetos</span>
-					<h4 class="mb0">Exemplos dos meus principais projetos de desenvolvimento backend em Java.</h4>
+					<h4 class="mb0">Exemplos de projetos desenvolvidos durante o estágio e início da carreira.</h4>
 				</div>
 			</div>
 		</div>
@@ -450,7 +453,7 @@ margin-bottom: 20px;
 							<button class="keyword-btn">JPA</button>
 						</div>
 						<h4><a href="#">Sistema de Gestão de Usuários</a></h4>
-						<p>Desenvolvimento de uma aplicação backend para gestão de usuários, incluindo autenticação, autorização e gerenciamento de perfis, utilizando Spring Boot e JPA.</p>
+						<p>Criação de uma aplicação simples para gerenciar usuários, com autenticação e perfis, utilizando Spring Boot e JPA.</p>
 					</div>
 				</div>
 			</div>
@@ -469,7 +472,7 @@ margin-bottom: 20px;
 							<button class="keyword-btn">RabbitMQ</button>
 						</div>
 						<h4><a href="#">Sistema de E-commerce</a></h4>
-						<p>Criação de uma plataforma de e-commerce com microserviços, integrando processamento de pagamentos e gerenciamento de estoque com Spring Boot e RabbitMQ.</p>
+						<p>Desenvolvimento de uma plataforma básica de e-commerce, com recursos para pagamento e gestão de produtos, utilizando microserviços e RabbitMQ.</p>
 					</div>
 				</div>
 			</div>
@@ -478,17 +481,17 @@ margin-bottom: 20px;
 			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
 				<div class="isotope_item">
 					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
-						<a href="#"><img src="images/portfolio/img-0.jpg" alt="API para Gerenciamento de Dados" class="img-fluid" style="height: 250px; width: auto;" /></a>
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="Plataforma de Notificações" class="img-fluid" style="height: 250px; width: auto;" /></a>
 					</div>
 					<div class="item-info">
 						<div class="keywords">
 							<button class="keyword-btn">Java</button>
 							<button class="keyword-btn">Spring Boot</button>
-							<button class="keyword-btn">REST API</button>
-							<button class="keyword-btn">Hibernate</button>
+							<button class="keyword-btn">RabbitMQ</button>
+							<button class="keyword-btn">Microservices</button>
 						</div>
-						<h4><a href="#">API para Gerenciamento de Dados</a></h4>
-						<p>Desenvolvimento de uma API RESTful para gerenciamento de dados, utilizando Hibernate para mapeamento objeto-relacional e Spring Boot para criação de endpoints.</p>
+						<h4><a href="#">Plataforma de Notificações</a></h4>
+						<p>Desenvolvimento de uma plataforma para enviar notificações, utilizando Spring Boot para o backend e RabbitMQ para o gerenciamento das mensagens.</p>
 					</div>
 				</div>
 			</div>
@@ -507,7 +510,7 @@ margin-bottom: 20px;
 							<button class="keyword-btn">Kafka</button>
 						</div>
 						<h4><a href="#">Sistema de Monitoramento em Tempo Real</a></h4>
-						<p>Criação de um sistema para monitoramento em tempo real de eventos, utilizando Spring Boot para backend, WebSocket para comunicação em tempo real e Kafka para gerenciamento de mensagens.</p>
+						<p>Criação de um sistema básico para monitoramento de eventos em tempo real, utilizando WebSocket e Spring Boot.</p>
 					</div>
 				</div>
 			</div>
@@ -526,7 +529,7 @@ margin-bottom: 20px;
 							<button class="keyword-btn">PostgreSQL</button>
 						</div>
 						<h4><a href="#">Sistema de Gerenciamento de Tarefas</a></h4>
-						<p>Desenvolvimento de um sistema de gerenciamento de tarefas com operações CRUD, utilizando Spring Boot para o backend e PostgreSQL para o banco de dados.</p>
+						<p>Desenvolvimento de uma aplicação para gerenciamento de tarefas, com funcionalidades CRUD e PostgreSQL para o banco de dados.</p>
 					</div>
 				</div>
 			</div>
@@ -535,17 +538,17 @@ margin-bottom: 20px;
 			<div class="col-lg-4 col-md-4 col-sm-6 mt60">
 				<div class="isotope_item">
 					<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
-						<a href="#"><img src="images/portfolio/img-0.jpg" alt="Plataforma de Notificações" class="img-fluid" style="height: 250px; width: auto;" /></a>
+						<a href="#"><img src="images/portfolio/img-0.jpg" alt="API para Gerenciamento de Dados" class="img-fluid" style="height: 250px; width: auto;" /></a>
 					</div>
 					<div class="item-info">
 						<div class="keywords">
 							<button class="keyword-btn">Java</button>
 							<button class="keyword-btn">Spring Boot</button>
-							<button class="keyword-btn">RabbitMQ</button>
-							<button class="keyword-btn">Microservices</button>
+							<button class="keyword-btn">REST API</button>
+							<button class="keyword-btn">Hibernate</button>
 						</div>
-						<h4><a href="#">Plataforma de Notificações</a></h4>
-						<p>Desenvolvimento de uma plataforma de notificações em tempo real utilizando Spring Boot para o backend e RabbitMQ para gerenciamento de filas de mensagens.</p>
+						<h4><a href="#">API para Gerenciamento de Dados</a></h4>
+						<p>Desenvolvimento de uma API RESTful para gerenciamento básico de dados, utilizando Hibernate para mapeamento e Spring Boot para criação de endpoints.</p>
 					</div>
 				</div>
 			</div>
