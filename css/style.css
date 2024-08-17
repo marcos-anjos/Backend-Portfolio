@@ -1090,14 +1090,19 @@ a.play-video::after {
   background: top right no-repeat #fff;
   background-size: 200%;
   text-align: center;
-  padding: 50px 20px;
+  padding: 40px 20px;
   margin: 0;
   border: 1px solid #d4f0ff;
   -webkit-border-radius: 8px;
   border-radius: 8px;
   box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
-    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
-    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+              0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
+              0 25px 40px -30px rgba(0, 0, 0, 0.2);
+  height: auto; /* Definindo uma altura fixa */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .service-section .s-block {
   background: url(../images/shape/shape-7.svg) top right no-repeat #fff;
@@ -1105,7 +1110,7 @@ a.play-video::after {
 }
 .s-card-icon {
   width: 80px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
 }
 .s-block h4 {
   margin: 0 0 10px;
