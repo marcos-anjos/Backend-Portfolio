@@ -15,7 +15,7 @@
 
 <h3>Portfólio de Desenvolvimento Backend</h3>
 
-  <p>Bem-vindo ao meu portfólio de projetos, onde demonstro minhas habilidades em desenvolvimento backend, utilizando Java, Spring Boot, e outras tecnologias chave.</p>
+<p>Bem-vindo ao meu portfólio de projetos, onde demonstro minhas habilidades em desenvolvimento backend e projetos pessoais. Explore meus trabalhos em <a href="https://marcos-anjos-portfolio.vercel.app/">Portfólio</a>.</p>
   
 </div>
 
