@@ -1376,7 +1376,7 @@ a.play-video::after {
 .work-card p {
   font-family: Poppins, sans-serif;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 15px;
   margin: 5px 0 0;
   padding: 0 12px;
 }
@@ -1386,63 +1386,36 @@ a.play-video::after {
   width: 62px;
   margin: 0 auto;
   text-align: center;
+  filter: drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff);
+
 }
 .icon-set {
   width: 25%;
   display: inline-block;
   float: left;
   position: relative;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.icon-set:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 .work-card {
   margin: 10px;
   padding: 30px 20px;
-  max-height: 170px;
+  max-height: 150px;
   text-align: center;
-  min-height: 170px;
-  border-radius: 8px 40px;
-  -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
-    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
-    0 25px 40px -30px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
-    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
-    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+  min-height: 150px;
+  border-radius: 4px;
+  border: 1.9px solid #ccc; /* Adiciona uma borda sólida de 10px com cor cinza clara (#ccc) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
-.cd1 {
-  background: #70e4e8;
+
+.cd1, .cd2, .cd3, .cd4, .cd5, .cd6, .cd7, .cd8, .cd9, .cd10, .cd11, .cd12, .cd13, .cd14, .cd15, .cd16 {
+  background: linear-gradient(135deg, rgba(255, 255, 0, 0), rgba(0, 255, 0, 0)); /* Amarelo para Verde */
+
 }
-.cd2 {
-  background: #f5eb92;
-}
-.cd3 {
-  background: #a3ffe2;
-}
-.cd4 {
-  background: #ffbc7a;
-}
-.cd5 {
-  background: #e3ff8e;
-}
-.cd6 {
-  background: #ffa0c6;
-}
-.cd7 {
-  background: #f3a6ff;
-}
-.cd8 {
-  background: #97ffaf;
-}
-.cd9 {
-  background: #6cfffa;
-}
-.cd10 {
-  background: #77baff;
-}
-.cd11 {
-  background: #ffefd4;
-}
-.cd12 {
-  background: #7affdb;
-}
+
 .testinomial-section {
   background: url(../images/shape/shape-9.svg) center left no-repeat #fff;
   background-size: contain;
