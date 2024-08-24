@@ -8453,7 +8453,7 @@ a.smllbtnn {
 @media (max-width: 768px) {
   .modal-content {
     width: 95%; /* Ajusta a largura para telas menores */
-    margin: 5% auto;
+    margin: 10% auto;
     padding: 15px; /* Reduz o padding */
     overflow-y: auto; /* Permite rolar verticalmente se necessário */
   }
@@ -8474,7 +8474,7 @@ a.smllbtnn {
 @media (max-width: 480px) {
   .modal-content {
     width: 100%; /* Largura total para dispositivos muito pequenos */
-    margin: 2% auto;
+    margin: 20% auto;
     padding: 10px; /* Reduz ainda mais o padding */
     overflow-y: auto; /* Permite rolar verticalmente se necessário */
   }
@@ -8516,4 +8516,31 @@ a.smllbtnn {
 
 .project-links i {
   margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
+.isotope_item {
+  position: relative;
+}
+
+.item-image, .item-info {
+  position: relative;
+}
+
+.hover-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px; /* Ajuste conforme necessário */
+  height: 80px; /* Ajuste conforme necessário */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.isotope_item:hover .hover-icon {
+  opacity: 1;
+}
+
+/* Se desejar ajustar o hover apenas para os textos */
+.item-info:hover .hover-icon, .item-info h4:hover .hover-icon, .item-info p:hover .hover-icon {
+  opacity: 1;
 }
