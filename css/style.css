@@ -941,6 +941,7 @@ a.play-video::after {
   font-weight: 400;
   font-family: Poppins, sans-serif;
   padding: 0 32px;
+  margin-top: 10px;
   line-height: 56px;
   text-align: center;
   outline: 0;
@@ -8258,7 +8259,7 @@ a.smllbtnn {
 /* Define font size for featured-name and typedText */
 .featured-name p,
 .typedText {
-  font-size: 39px;
+  font-size: 40px;
 }
 
 .scroll-icon-box {
@@ -8353,7 +8354,7 @@ a.smllbtnn {
   border: none; /* Remove a borda padrão do botão */
   cursor: default; /* Remove o cursor pointer */
 }
-eu quero definir um tamanho fixo e usar um overflow y /* Estilo para o modal */
+/* Estilo para o modal */
 .modal {
   display: none; /* Oculto por padrão */
   position: fixed;
@@ -8369,22 +8370,25 @@ eu quero definir um tamanho fixo e usar um overflow y /* Estilo para o modal */
 /* Conteúdo do modal */
 .modal-content {
   background-color: #fefefe;
-  margin: 10% auto;
+  margin: 5% auto;
   padding: 30px;
   border: 1px solid #888;
   width: 90%; /* Ajuste a largura para telas pequenas */
   max-width: 800px;
+  max-height: 85%;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   font-family: Poppins, sans-serif;
   position: relative;
-  overflow: auto; /* Permite rolar o conteúdo se necessário */
+  overflow-y: auto; /* Permite rolar o conteúdo se necessário */
 }
 
 /* Botão de fechar */
 .close {
   color: #aaa;
-  float: right;
+  position: absolute;
+  top: 10px; /* Ajuste a posição superior do botão */
+  left: 10px; /* Ajuste a posição à direita do botão */
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
@@ -8397,27 +8401,37 @@ eu quero definir um tamanho fixo e usar um overflow y /* Estilo para o modal */
   cursor: pointer;
 }
 
+
 /* Estilo da imagem dentro do modal */
 .modal-content img {
   width: 100%;
   height: auto;
   border-radius: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adiciona uma sombra sutil à imagem */
 }
 
 /* Estilo do título dentro do modal */
 .modal-content h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 15px;
   color: #333;
+  font-weight: bold; /* Adiciona negrito ao título */
+  text-transform: uppercase; /* Torna o texto do título em maiúsculas */
+  border-bottom: 2px solid #ddd; /* Adiciona uma linha abaixo do título */
+  padding-bottom: 10px; /* Adiciona um espaço abaixo do título */
 }
 
 /* Estilo dos parágrafos dentro do modal */
 .modal-content p {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 20px;
   color: #555;
+  text-align: justify; /* Alinhamento do texto */
+  text-justify: inter-word; /* Melhora a justificação do texto */
+  letter-spacing: 0.5px; /* Adiciona espaçamento entre letras */
+  word-wrap: break-word; /* Permite quebra de palavras longas */
 }
 
 /* Estilo das listas dentro do modal */
@@ -8425,11 +8439,13 @@ eu quero definir um tamanho fixo e usar um overflow y /* Estilo para o modal */
   margin-bottom: 20px;
   padding-left: 20px;
   color: #555;
+  list-style-type: disc;
 }
 
 .modal-content ul li {
-  margin-bottom: 10px;
-  list-style-type: disc;
+  margin-bottom: 15px;
+  font-size: 16px; /* Adiciona uma fonte consistente para os itens da lista */
+  line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
 }
 
 /* Estilos responsivos */
@@ -8473,4 +8489,30 @@ eu quero definir um tamanho fixo e usar um overflow y /* Estilo para o modal */
   .modal-content p {
     font-size: 12px; /* Ajusta o tamanho da fonte do parágrafo */
   }
+}
+.project-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-links p {
+  margin: 0;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.project-links a {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: #007bff; /* Cor do link */
+  align-items: center;
+}
+
+.project-links a:hover {
+  color: #0056b3; /* Cor do link ao passar o mouse */
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.project-links i {
+  margin-right: 5px; /* Espaço entre o ícone e o texto */
 }

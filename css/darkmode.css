@@ -924,3 +924,41 @@
   .active-dark .s-card-icon img {
     filter: drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff); /* Efeito de brilho neon */
   }
+  /* Estilo do modal no tema escuro */
+.active-dark .modal-content {
+  background-color: #191919; /* Fundo escuro */
+  border: 1px solid #444; /* Borda mais escura */
+  color: #fefefe; /* Cor do texto mais clara */
+}
+
+.active-dark .modal-content img {
+  border-radius: 5px; /* Adiciona borda arredondada nas imagens */
+  max-width: 100%; /* Garante que a imagem não ultrapasse o modal */
+}
+
+.active-dark .modal-content h2 {
+  color: #e0e0e0; /* Título mais claro */
+}
+
+.active-dark .modal-content p,
+.active-dark .modal-content ul {
+  color: #c0c0c0; /* Texto do parágrafo e listas mais claras */
+}
+
+.active-dark .modal-content a {
+  color: #1e90ff; /* Links em azul brilhante */
+}
+
+.active-dark .modal-content .btn-close {
+  background: #333; /* Fundo escuro para o botão de fechar */
+  color: #fefefe; /* Cor do texto do botão de fechar */
+  border-radius: 100px; /* Bordas arredondadas */
+}
+
+.active-dark .modal-content .btn-close:hover {
+  background: #555; /* Fundo mais claro ao passar o mouse */
+}
+
+.active-dark .modal-content .s-card-icon img {
+  filter: drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff); /* Efeito de brilho neon */
+}
