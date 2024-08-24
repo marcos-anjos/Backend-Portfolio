@@ -8367,20 +8367,21 @@ a.smllbtnn {
   background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
 }
 
-/* Conteúdo do modal */
+/* Estilo do modal */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #ffffff; /* Cor branca mais pura */
   margin: 5% auto;
   padding: 30px;
-  border: 1px solid #888;
+  border: none; /* Remove a borda padrão */
   width: 90%; /* Ajuste a largura para telas pequenas */
-  max-width: 800px;
+  max-width: 700px; /* Reduzido para um layout mais elegante */
   max-height: 85%;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  font-family: Poppins, sans-serif;
+  border-radius: 12px; /* Bordas mais arredondadas para um visual mais suave */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Sombra mais suave e difusa */
+  font-family: 'Poppins', sans-serif;
   position: relative;
   overflow-y: auto; /* Permite rolar o conteúdo se necessário */
+  animation: modalFadeIn 0.3s ease-in-out; /* Animação de entrada suave */
 }
 
 /* Botão de fechar */
@@ -8448,6 +8449,24 @@ a.smllbtnn {
   font-size: 16px; /* Adiciona uma fonte consistente para os itens da lista */
   line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
 }
+
+/* Animação de entrada do modal */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplicação da animação ao modal */
+.modal {
+  animation: modalFadeIn 0.4s ease-out;
+}
+
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
