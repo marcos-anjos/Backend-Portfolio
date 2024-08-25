@@ -39,74 +39,150 @@ function showModal(projectId) {
   modalBody.innerHTML = content;
   modal.style.display = 'block';
 }
-
-// Funções auxiliares para retornar o conteúdo detalhado de cada projeto
+// Detalhamento do Projeto I
 function getProject1Content() {
   return `
-       <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários">
-      <h2>Sistema de Gestão de Usuários</h2>
+    <!-- Imagem do Projeto -->
+    <div class="project-image" style="margin-bottom:1rem;">
+      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:600px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+    
+    <!-- Título do Projeto -->
+    <h2 style="color:#333; font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
 
-      <div class="project-links">
-  <p><strong>Repositório:</strong> <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-  <p><strong>Live Demo:</strong> <a href="https://live-demo.com/projeto1" target="_blank"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a></p>
-</div>
+    <!-- Links do Projeto -->
+    <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background-color:#007bff; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="background-color:#28a745; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+    </div>
 
-      
-      <p><strong>Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando Java e Spring Boot para o backend, com Spring Data JPA para interagir com o MongoDB. O Redis foi utilizado para cache de dados e o Spring Security para autenticação e controle de acesso.</p>
-
-      <p><strong>Desafios e Soluções:</strong></p>
-      <ul>
-          <li><strong>Desafio 1:</strong> Implementar um sistema de autenticação robusto que permita a integração com múltiplos provedores de identidade (como OAuth). <br><strong>Solução:</strong> Utilização de Spring Security para configurar autenticação baseada em tokens e integração com provedores de OAuth.</li>
-      </ul>
-      
-      <p><strong>Resultados e Próximos Passos:</strong> A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de Spring Boot e JPA permitiu um desenvolvimento rápido e eficiente, com alto desempenho e fácil manutenção.</p>
+    <!-- Descrição do Projeto -->
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> 
+      O sistema foi desenvolvido utilizando Java e Spring Boot para o backend, com Spring Data JPA para interagir com o MongoDB. Utilizou-se Redis para cache de dados e Spring Security para autenticação e controle de acesso.
+    </p>
+    
+    <!-- Desafios e Soluções -->
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
+    </p>
+    <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
+      <li>
+        <strong><i class="fas fa-exclamation-circle"></i> Desafio:</strong> Implementar um sistema de autenticação robusto com integração a múltiplos provedores de identidade (como OAuth).
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de Spring Security para configurar autenticação baseada em tokens e integração com provedores de OAuth.
+      </li>
+    </ul>
+    
+    <!-- Resultados e Próximos Passos -->
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> 
+      A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de Spring Boot e JPA possibilitou um desenvolvimento ágil e eficiente, com alto desempenho e fácil manutenção. Os próximos passos incluem a adição de novas funcionalidades e melhorias contínuas no sistema.
+    </p>
   `;
 }
-// Funções auxiliares para retornar o conteúdo detalhado de cada projeto
+
+// Detalhamento do Projeto II
 function getProject2Content() {
   return `
-      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários">
-      <h2>Sistema de Gestão de Usuários</h2>
+    <!-- Imagem do Projeto -->
+    <div class="project-image" style="margin-bottom:1rem;">
+      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:600px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+    
+    <!-- Título do Projeto -->
+    <h2 style="color:#333; font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
 
-      <div class="project-links">
-  <p><strong>Repositório:</strong> <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-  <p><strong>Live Demo:</strong> <a href="https://live-demo.com/projeto1" target="_blank"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a></p>
-</div>
+    <!-- Links do Projeto -->
+    <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background-color:#007bff; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="background-color:#28a745; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+    </div>
 
-      
-      <p><strong>Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando Java e Spring Boot para o backend, com Spring Data JPA para interagir com o MongoDB. O Redis foi utilizado para cache de dados e o Spring Security para autenticação e controle de acesso.</p>
+    <!-- Descrição do Projeto -->
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando Java e Spring Boot para o backend, com Spring Data JPA para interagir com o MongoDB. O Redis foi utilizado para cache de dados e o Spring Security para autenticação e controle de acesso.
+    </p>
 
-      <p><strong>Desafios e Soluções:</strong></p>
-      <ul>
-          <li><strong>Desafio 1:</strong> Implementar um sistema de autenticação robusto que permita a integração com múltiplos provedores de identidade (como OAuth). <br><strong>Solução:</strong> Utilização de Spring Security para configurar autenticação baseada em tokens e integração com provedores de OAuth.</li>
-          <li><strong>Desafio 2:</strong> Garantir a segurança dos dados sensíveis, como senhas, utilizando criptografia forte. <br><strong>Solução:</strong> Implementação de criptografia AES para senhas e dados sensíveis, além de práticas recomendadas para armazenamento seguro.</li>
-      </ul>
-      
-      <p><strong>Resultados e Próximos Passos:</strong> A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de Spring Boot e JPA permitiu um desenvolvimento rápido e eficiente, com alto desempenho e fácil manutenção.</p>
+    <!-- Galeria de Imagens -->
+      <div class="project-gallery" style="margin-top:1rem;">
+        <h3 style="font-family:'Poppins', sans-serif; color:#333; font-size:1rem; margin-bottom:0.5rem;">
+          <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
+        </h3>
+        <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
+          <img src="images/portfolio/img-12.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+          <img src="images/portfolio/img-13.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        </div>
+      </div>
+
+    <!-- Desafios e Soluções -->
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
+    </p>
+    <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
+      <li>
+        <strong><i class="fas fa-exclamation-circle"></i> Desafio 1:</strong> Implementar um sistema de autenticação robusto que permita a integração com múltiplos provedores de identidade (como OAuth).
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de Spring Security para configurar autenticação baseada em tokens e integração com provedores de OAuth.
+      </li>
+      <li>
+        <strong><i class="fas fa-exclamation-circle"></i> Desafio 2:</strong> Garantir a segurança dos dados sensíveis, como senhas, utilizando criptografia forte.
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de criptografia AES para senhas e dados sensíveis, além de práticas recomendadas para armazenamento seguro.
+      </li>
+    </ul>
+    
+    <!-- Resultados e Próximos Passos -->
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de Spring Boot e JPA permitiu um desenvolvimento rápido e eficiente, com alto desempenho e fácil manutenção.
+    </p>
   `;
 }
+  // Detalhamento do Projeto III
+  function getProject3Content() {
+    return `
+      <!-- Imagem do Projeto -->
+      <div class="project-image" style="margin-bottom:1rem;">
+        <img src="Technology LinkedIn Banner in Navy White Simple Style.png" alt="Painter AR" style="width:100%; max-width:600px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+      </div>
+  
+      <!-- Título do Projeto -->
+      <h2 style="color:#333; font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Painter AR</h2>
+  
+      <!-- Links do Projeto -->
+      <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
+        <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background-color:#007bff; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://live-demo.com/projeto1" target="_blank" style="background-color:#28a745; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+      </div>
 
-// Funções auxiliares para retornar o conteúdo detalhado de cada projeto
-function getProject3Content() {
-  return `
-      <img src="Technology LinkedIn Banner in Navy White Simple Style.png" alt="Painter AR">
-      <h2>Painter AR</h2>
-
-      <div class="project-links">
-  <p><strong>Repositório:</strong> <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-  <p><strong>Live Demo:</strong> <a href="https://live-demo.com/projeto1" target="_blank"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a></p>
-</div>
-
-
-      <p><strong>Descrição do Projeto:</strong> Painter AR é uma plataforma digital que conecta compradores e artistas, permitindo que os compradores aluguem pinturas de acordo com suas necessidades e gostos pessoais. Utilizando realidade aumentada (AR), os usuários podem visualizar as obras de arte em seus próprios espaços antes de alugar.</p>
-      
-      <p><strong>Desafios e Soluções:</strong> Um dos maiores desafios foi integrar design de produto com tecnologia de AR, necessitando conhecimento de C# e Unity 3D. Também houve desafios em criar uma identidade visual coesa e intuitiva para usuários de diferentes perfis, como artistas e compradores.</p>
-      
-      <p><strong>Resultados e Próximos Passos:</strong> A plataforma permite que os usuários descubram obras de arte, aprendam mais sobre os artistas e visualizem pinturas em seus próprios espaços usando AR. O projeto destacou a importância de uma experiência de usuário personalizada e a necessidade de um design visual claro e diferenciado.</p>
-      
-  `;
-}
-
+      <!-- Descrição do Projeto -->
+      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+        <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Painter AR é uma plataforma digital que conecta compradores e artistas, permitindo que os compradores aluguem pinturas de acordo com suas necessidades e gostos pessoais. Utilizando realidade aumentada (AR), os usuários podem visualizar as obras de arte em seus próprios espaços antes de alugar.
+      </p>
+  
+      <!-- Galeria de Imagens -->
+      <div class="project-gallery" style="margin-top:1rem;">
+        <h3 style="font-family:'Poppins', sans-serif; color:#333; font-size:1rem; margin-bottom:0.5rem;">
+          <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
+        </h3>
+        <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
+          <img src="images/portfolio/img-1.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+          <img src="images/portfolio/img-2.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        </div>
+      </div>
+  
+      <!-- Desafios e Soluções -->
+      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+        <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
+      </p>
+      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+        <strong><i class="fas fa-exclamation-circle"></i> Desafios:</strong> Integrar design de produto com tecnologia de AR, necessitando conhecimento de C# e Unity 3D. Além disso, criar uma identidade visual coesa e intuitiva para usuários de diferentes perfis, como artistas e compradores.
+      </p>
+  
+      <!-- Resultados e Próximos Passos -->
+      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+        <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A plataforma permite que os usuários descubram obras de arte, aprendam mais sobre os artistas e visualizem pinturas em seus próprios espaços usando AR. O projeto destacou a importância de uma experiência de usuário personalizada e a necessidade de um design visual claro e diferenciado.
+      </p>
+    `;
+  }
+  
 // Fecha o modal ao clicar no botão de fechar
 document.querySelector('.close').addEventListener('click', function() {
   document.getElementById('projectModal').style.display = 'none';

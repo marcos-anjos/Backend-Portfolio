@@ -8412,7 +8412,8 @@ a.smllbtnn {
   position: relative;
   overflow-y: auto; /* Permite rolar o conteúdo se necessário */
   animation: modalFadeIn 0.3s ease-in-out; /* Animação de entrada suave */
-
+  /* Suavização do overflow com padding extra */
+  padding-right: calc(30px + 6px); /* Evita sobreposição da barra de rolagem */
   /* Customização da barra de rolagem para navegadores WebKit */
   scrollbar-width: auto; /* Para navegadores Firefox */
   scrollbar-color: #2E8B57 #f0f0f0; /* Cor da barra e do fundo (para Firefox) */
@@ -8524,6 +8525,30 @@ a.smllbtnn {
 }
 
 /* Estilos responsivos */
+@media (max-width: 1024px) {
+  .modal-content {
+    width: 90%; /* Ajusta a largura para telas médias */
+    margin: 8% auto;
+    padding: 20px; /* Ajusta o padding para telas maiores, mas ainda reduzido */
+  }
+  
+  .close {
+    font-size: 26px; /* Ajusta o tamanho do botão de fechar */
+    top: 12px; /* Ajusta a posição superior do botão */
+    left: 12px; /* Ajusta a posição à esquerda do botão */
+    width: 35px; /* Largura do círculo */
+    height: 35px; /* Altura do círculo */
+  }
+  
+  .modal-content h2 {
+    font-size: 22px; /* Ajusta o tamanho da fonte do título */
+  }
+
+  .modal-content p {
+    font-size: 16px; /* Ajusta o tamanho da fonte do parágrafo */
+  }
+}
+
 @media (max-width: 768px) {
   .modal-content {
     width: 95%; /* Ajusta a largura para telas menores */
@@ -8533,8 +8558,8 @@ a.smllbtnn {
   
   .close {
     font-size: 24px; /* Reduz o tamanho do botão de fechar */
-    top: 10px; /* Ajuste a posição superior do botão */
-    left: 10px; /* Ajuste a posição à esquerda do botão */
+    top: 10px; /* Ajusta a posição superior do botão */
+    left: 10px; /* Ajusta a posição à esquerda do botão */
     width: 30px; /* Largura do círculo */
     height: 30px; /* Altura do círculo */
   }
@@ -8569,6 +8594,7 @@ a.smllbtnn {
     font-size: 12px; /* Ajusta o tamanho da fonte do parágrafo */
   }
 }
+
 
 .project-links {
   display: flex;
