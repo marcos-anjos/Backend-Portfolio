@@ -1297,6 +1297,36 @@ a.play-video::after {
     0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
     0 25px 40px -30px rgba(0, 0, 0, 0.2);
 }
+
+.item-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0); /* Leve camada de fundo */
+  backdrop-filter: blur(2.5px); /* Desfoque de fundo para o efeito de glassmorfismo */
+  border-radius: 15px; /* Bordas arredondadas */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.item-image:hover::before {
+  opacity: 1; /* Mostra o efeito de glassmorfismo ao passar o mouse */
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .clients-logo,
 .portfolio-block {
   align-items: center;
@@ -8277,7 +8307,7 @@ a.smllbtnn {
 }
 
 .signature-name {
-  font-family: 'Roboto', cursive, sans-serif; /* Usando a fonte 'Zeyada' como primeira opção, seguida por fontes de fallback. */
+  font-family: 'Roboto', sans-serif; /* Usando a fonte 'Zeyada' como primeira opção, seguida por fontes de fallback. */
   font-size: 16px; /* Tamanho da fonte para destacar o nome. */
   color: #2E8B57; /* Uma cor verde escura que é suave aos olhos. */
   text-decoration: none; /* Removendo o sublinhado, presumindo que não queremos que pareça um link. */
@@ -8549,8 +8579,8 @@ a.smllbtnn {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80px; /* Ajuste conforme necessário */
-  height: 80px; /* Ajuste conforme necessário */
+  width: 65px; /* Ajuste conforme necessário */
+  height: 65px; /* Ajuste conforme necessário */
   opacity: 0;
   transition: opacity 0.3s ease;
 }
