@@ -44,11 +44,11 @@ function getProject1Content() {
   return `
     <!-- Imagem do Projeto -->
     <div class="project-image" style="margin-bottom:1rem;">
-      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:600px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
     </div>
     
     <!-- Título do Projeto -->
-    <h2 style="color:#333; font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
+    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
 
     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
@@ -81,16 +81,17 @@ function getProject1Content() {
   `;
 }
 
+
 // Detalhamento do Projeto II
 function getProject2Content() {
   return `
     <!-- Imagem do Projeto -->
     <div class="project-image" style="margin-bottom:1rem;">
-      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:600px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
     </div>
     
     <!-- Título do Projeto -->
-    <h2 style="color:#333; font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
+    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
 
     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
@@ -105,7 +106,7 @@ function getProject2Content() {
 
     <!-- Galeria de Imagens -->
       <div class="project-gallery" style="margin-top:1rem;">
-        <h3 style="font-family:'Poppins', sans-serif; color:#333; font-size:1rem; margin-bottom:0.5rem;">
+        <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
           <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
         </h3>
         <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
@@ -135,23 +136,24 @@ function getProject2Content() {
     </p>
   `;
 }
+
   // Detalhamento do Projeto III
   function getProject3Content() {
     return `
       <!-- Imagem do Projeto -->
       <div class="project-image" style="margin-bottom:1rem;">
-        <img src="Technology LinkedIn Banner in Navy White Simple Style.png" alt="Painter AR" style="width:100%; max-width:600px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+        <img src="Technology LinkedIn Banner in Navy White Simple Style.png" alt="Painter AR" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
       </div>
   
       <!-- Título do Projeto -->
-      <h2 style="color:#333; font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Painter AR</h2>
+      <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Painter AR</h2>
   
       <!-- Links do Projeto -->
       <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
         <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background-color:#007bff; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
         <a href="https://live-demo.com/projeto1" target="_blank" style="background-color:#28a745; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
       </div>
-
+  
       <!-- Descrição do Projeto -->
       <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
         <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Painter AR é uma plataforma digital que conecta compradores e artistas, permitindo que os compradores aluguem pinturas de acordo com suas necessidades e gostos pessoais. Utilizando realidade aumentada (AR), os usuários podem visualizar as obras de arte em seus próprios espaços antes de alugar.
@@ -159,7 +161,7 @@ function getProject2Content() {
   
       <!-- Galeria de Imagens -->
       <div class="project-gallery" style="margin-top:1rem;">
-        <h3 style="font-family:'Poppins', sans-serif; color:#333; font-size:1rem; margin-bottom:0.5rem;">
+        <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
           <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
         </h3>
         <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
@@ -182,6 +184,7 @@ function getProject2Content() {
       </p>
     `;
   }
+  
   
 // Fecha o modal ao clicar no botão de fechar
 document.querySelector('.close').addEventListener('click', function() {
