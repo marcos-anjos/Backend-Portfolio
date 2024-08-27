@@ -42,9 +42,10 @@ function showModal(projectId) {
 // Detalhamento do Projeto I
 function getProject1Content() {
   return `
-    <!-- Imagem do Projeto -->
-    <div class="project-image" style="margin-bottom:1rem;">
-      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+     <!-- GIF -->
+    <img src="images/Gif/gif-18.gif" alt="Demonstração do Sistema de Gestão de Usuários" 
+     style="width:100%; height:auto; max-height:200px; object-fit:cover; border-radius:12px; box-shadow:0 6px 12px rgba(0,0,0,0.3); transition:transform 0.3s ease, box-shadow 0.3s ease;" 
+     this.style.boxShadow='0 8px 16px rgba(0,0,0,0.4)';"this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';">
     </div>
     
     <!-- Título do Projeto -->
@@ -52,8 +53,12 @@ function getProject1Content() {
 
      <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background: linear-gradient(90deg, #007bff, #00c6ff); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
-      <a href="https://live-demo.com/projeto1" target="_blank" style="background: linear-gradient(90deg, #28a745, #a0e04b); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, border-color 0.3s ease;">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, border-color 0.3s ease;">
+        <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
+      </a>
     </div>
 
     <!-- Descrição do Projeto -->
@@ -103,18 +108,24 @@ function getProject1Content() {
 // Detalhamento do Projeto II
 function getProject2Content() {
   return `
-    <!-- Imagem do Projeto -->
-    <div class="project-image" style="margin-bottom:1rem;">
-      <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+
+    <!-- GIF -->
+    <img src="images/Gif/gif-7.gif" alt="Demonstração do Sistema de Gestão de Usuários" 
+     style="width:100%; height:auto; max-height:200px; object-fit:cover; border-radius:12px; box-shadow:0 6px 12px rgba(0,0,0,0.3); transition:transform 0.3s ease, box-shadow 0.3s ease;" 
+     this.style.boxShadow='0 8px 16px rgba(0,0,0,0.4)';"this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';">
     </div>
 
     <!-- Título do Projeto -->
     <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
-
-     <!-- Links do Projeto -->
+    
+    <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background: linear-gradient(90deg, #007bff, #00c6ff); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
-      <a href="https://live-demo.com/projeto1" target="_blank" style="background: linear-gradient(90deg, #28a745, #a0e04b); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, border-color 0.3s ease;">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, border-color 0.3s ease;">
+        <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
+      </a>
     </div>
 
     <!-- Descrição do Projeto -->
@@ -163,20 +174,26 @@ function getProject2Content() {
   `;
 }
 
+
 function getProject3Content() {
   return `
-  <!-- Imagem do Projeto -->
-  <div class="project-image" style="margin-bottom:1rem;">
-    <img src="Technology LinkedIn Banner in Navy White Simple Style.png" alt="Painter AR" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
-  </div>
+   <!-- GIF -->
+    <img src="images/Gif/gif-19.gif" alt="Demonstração do Sistema de Gestão de Usuários" 
+     style="width:100%; height:auto; max-height:200px; object-fit:cover; border-radius:12px; box-shadow:0 6px 12px rgba(0,0,0,0.3); transition:transform 0.3s ease, box-shadow 0.3s ease;" 
+     this.style.boxShadow='0 8px 16px rgba(0,0,0,0.4)';"this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';">
+    </div>
 
   <!-- Título do Projeto -->
   <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Painter AR</h2>
 
    <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background: linear-gradient(90deg, #007bff, #00c6ff); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
-      <a href="https://live-demo.com/projeto1" target="_blank" style="background: linear-gradient(90deg, #28a745, #a0e04b); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, border-color 0.3s ease;">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, border-color 0.3s ease;">
+        <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
+      </a>
     </div>
 
   <!-- Descrição do Projeto -->
