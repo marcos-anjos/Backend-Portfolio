@@ -8406,7 +8406,7 @@ a.smllbtnn {
   width: 90%; /* Ajuste a largura para telas pequenas */
   max-width: 700px; /* Reduzido para um layout mais elegante */
   max-height: 85%;
-  border-radius: 12px 0px 0px 12px; /* Bordas mais arredondadas para um visual mais suave */
+  border-radius: 12px 12px 12px 12px; /* Bordas mais arredondadas para um visual mais suave */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Sombra mais suave e difusa */
   font-family: 'Poppins', sans-serif;
   position: relative;

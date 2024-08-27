@@ -50,18 +50,34 @@ function getProject1Content() {
     <!-- Título do Projeto -->
     <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
 
-    <!-- Links do Projeto -->
+     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background-color:#007bff; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
-      <a href="https://live-demo.com/projeto1" target="_blank" style="background-color:#28a745; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background: linear-gradient(90deg, #007bff, #00c6ff); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="background: linear-gradient(90deg, #28a745, #a0e04b); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
     </div>
 
     <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
       <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> 
-      O sistema foi desenvolvido utilizando Java e Spring Boot para o backend, com Spring Data JPA para interagir com o MongoDB. Utilizou-se Redis para cache de dados e Spring Security para autenticação e controle de acesso.
+      O sistema foi desenvolvido utilizando <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> para o backend, com 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Data JPA</strong> para interagir com o 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MongoDB</strong>. Utilizou-se 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Redis</strong> para cache de dados e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para autenticação e controle de acesso.
     </p>
-    
+
+     <!-- Galeria de Imagens -->
+    <div class="project-gallery" style="margin-top:1rem;">
+      <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
+        <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
+      </h3>
+      <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
+        <img src="images/portfolio/img-12.jpg" alt="Tela principal do Sistema de Gestão de Usuários" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-13.jpg" alt="Visualização do Sistema de Gestão" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+      </div>
+    </div>
+
     <!-- Desafios e Soluções -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
       <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
@@ -69,18 +85,20 @@ function getProject1Content() {
     <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
       <li>
         <strong><i class="fas fa-exclamation-circle"></i> Desafio:</strong> Implementar um sistema de autenticação robusto com integração a múltiplos provedores de identidade (como OAuth).
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de Spring Security para configurar autenticação baseada em tokens e integração com provedores de OAuth.
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de 
+        <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para configurar autenticação baseada em tokens e integração com provedores de OAuth.
       </li>
     </ul>
-    
+
     <!-- Resultados e Próximos Passos -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
       <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> 
-      A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de Spring Boot e JPA possibilitou um desenvolvimento ágil e eficiente, com alto desempenho e fácil manutenção. Os próximos passos incluem a adição de novas funcionalidades e melhorias contínuas no sistema.
+      A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">JPA</strong> possibilitou um desenvolvimento ágil e eficiente, com alto desempenho e fácil manutenção. 
     </p>
   `;
 }
-
 
 // Detalhamento do Projeto II
 function getProject2Content() {
@@ -89,31 +107,35 @@ function getProject2Content() {
     <div class="project-image" style="margin-bottom:1rem;">
       <img src="Black Minimalist UIUX Designer LinkedIn Banner (3).png" alt="Sistema de Gestão de Usuários" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
     </div>
-    
+
     <!-- Título do Projeto -->
     <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Sistema de Gestão de Usuários</h2>
 
-    <!-- Links do Projeto -->
+     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background-color:#007bff; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
-      <a href="https://live-demo.com/projeto1" target="_blank" style="background-color:#28a745; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background: linear-gradient(90deg, #007bff, #00c6ff); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="background: linear-gradient(90deg, #28a745, #a0e04b); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
     </div>
 
     <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando Java e Spring Boot para o backend, com Spring Data JPA para interagir com o MongoDB. O Redis foi utilizado para cache de dados e o Spring Security para autenticação e controle de acesso.
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> para o backend, com 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Data JPA</strong> para interagir com o 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MongoDB</strong>. O <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Redis</strong> foi utilizado para cache de dados e o 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para autenticação e controle de acesso.
     </p>
 
     <!-- Galeria de Imagens -->
-      <div class="project-gallery" style="margin-top:1rem;">
-        <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
-          <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
-        </h3>
-        <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-          <img src="images/portfolio/img-12.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-          <img src="images/portfolio/img-13.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        </div>
+    <div class="project-gallery" style="margin-top:1rem;">
+      <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
+        <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
+      </h3>
+      <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
+        <img src="images/portfolio/img-12.jpg" alt="Tela principal do Sistema de Gestão de Usuários" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-13.jpg" alt="Visualização do Sistema de Gestão" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
+    </div>
 
     <!-- Desafios e Soluções -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
@@ -122,69 +144,134 @@ function getProject2Content() {
     <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
       <li>
         <strong><i class="fas fa-exclamation-circle"></i> Desafio 1:</strong> Implementar um sistema de autenticação robusto que permita a integração com múltiplos provedores de identidade (como OAuth).
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de Spring Security para configurar autenticação baseada em tokens e integração com provedores de OAuth.
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de 
+        <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para configurar autenticação baseada em tokens e integração com provedores de OAuth.
       </li>
       <li>
         <strong><i class="fas fa-exclamation-circle"></i> Desafio 2:</strong> Garantir a segurança dos dados sensíveis, como senhas, utilizando criptografia forte.
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de criptografia AES para senhas e dados sensíveis, além de práticas recomendadas para armazenamento seguro.
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de criptografia 
+        <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">AES</strong> para senhas e dados sensíveis, além de práticas recomendadas para armazenamento seguro.
       </li>
     </ul>
     
     <!-- Resultados e Próximos Passos -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de Spring Boot e JPA permitiu um desenvolvimento rápido e eficiente, com alto desempenho e fácil manutenção.
+      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">JPA</strong> permitiu um desenvolvimento rápido e eficiente, com alto desempenho e fácil manutenção.
     </p>
   `;
 }
 
-  // Detalhamento do Projeto III
-  function getProject3Content() {
-    return `
-      <!-- Imagem do Projeto -->
-      <div class="project-image" style="margin-bottom:1rem;">
-        <img src="Technology LinkedIn Banner in Navy White Simple Style.png" alt="Painter AR" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
-      </div>
-  
-      <!-- Título do Projeto -->
-      <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Painter AR</h2>
-  
-      <!-- Links do Projeto -->
-      <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-        <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background-color:#007bff; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
-        <a href="https://live-demo.com/projeto1" target="_blank" style="background-color:#28a745; color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
-      </div>
-  
-      <!-- Descrição do Projeto -->
-      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-        <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Painter AR é uma plataforma digital que conecta compradores e artistas, permitindo que os compradores aluguem pinturas de acordo com suas necessidades e gostos pessoais. Utilizando realidade aumentada (AR), os usuários podem visualizar as obras de arte em seus próprios espaços antes de alugar.
-      </p>
-  
-      <!-- Galeria de Imagens -->
-      <div class="project-gallery" style="margin-top:1rem;">
-        <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
-          <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
-        </h3>
-        <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-          <img src="images/portfolio/img-1.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-          <img src="images/portfolio/img-2.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        </div>
-      </div>
-  
-      <!-- Desafios e Soluções -->
-      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-        <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
-      </p>
-      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-        <strong><i class="fas fa-exclamation-circle"></i> Desafios:</strong> Integrar design de produto com tecnologia de AR, necessitando conhecimento de C# e Unity 3D. Além disso, criar uma identidade visual coesa e intuitiva para usuários de diferentes perfis, como artistas e compradores.
-      </p>
-  
-      <!-- Resultados e Próximos Passos -->
-      <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-        <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A plataforma permite que os usuários descubram obras de arte, aprendam mais sobre os artistas e visualizem pinturas em seus próprios espaços usando AR. O projeto destacou a importância de uma experiência de usuário personalizada e a necessidade de um design visual claro e diferenciado.
-      </p>
-    `;
-  }
-  
+function getProject3Content() {
+  return `
+  <!-- Imagem do Projeto -->
+  <div class="project-image" style="margin-bottom:1rem;">
+    <img src="Technology LinkedIn Banner in Navy White Simple Style.png" alt="Painter AR" style="width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+  </div>
+
+  <!-- Título do Projeto -->
+  <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem;">Painter AR</h2>
+
+   <!-- Links do Projeto -->
+    <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
+      <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="background: linear-gradient(90deg, #007bff, #00c6ff); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="background: linear-gradient(90deg, #28a745, #a0e04b); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem;"><i class="fas fa-external-link-alt"></i> Visualizar ao Vivo</a>
+    </div>
+
+  <!-- Descrição do Projeto -->
+  <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+    <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> para o backend, com 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Data JPA</strong> para interagir com o 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MongoDB</strong>. O <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Redis</strong> foi utilizado para cache de dados e o 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para autenticação e controle de acesso.
+  </p>
+
+   <!-- Timeline do Projeto -->
+  <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem; cursor:pointer; display:flex; align-items:center;" onclick="toggleSection('timeline', 'timeline-toggle')">
+    <i class="fas fa-stream" style="margin-right:0.5rem; color:#986dff;"></i> Timeline do Projeto 
+    <span id="timeline-toggle" style="font-size:0.8rem; color:#007bff; margin-left:auto; transition: transform 0.3s ease;">&#9660;</span>
+  </h3>
+  <ul id="timeline" style="font-family:'Poppins', sans-serif; list-style:none; padding:0; display:none; overflow:hidden; transition: max-height 0.5s ease;">
+    <li style="margin-bottom:1.5rem; position:relative; padding-left:2rem;">
+      <span style="position:absolute; left:0; top:0; font-size:1.2rem; color:#986dff;">&#9679;</span>
+      <strong>Janeiro 2024:</strong> Concepção inicial e definição dos requisitos do projeto.
+    </li>
+    <li style="margin-bottom:1.5rem; position:relative; padding-left:2rem;">
+      <span style="position:absolute; left:0; top:0; font-size:1.2rem; color:#986dff;">&#9679;</span>
+      <strong>Fevereiro 2024:</strong> Desenvolvimento do backend usando Java e Spring Boot.
+    </li>
+    <li style="margin-bottom:1.5rem; position:relative; padding-left:2rem;">
+      <span style="position:absolute; left:0; top:0; font-size:1.2rem; color:#986dff;">&#9679;</span>
+      <strong>Março 2024:</strong> Integração com MongoDB e implementação de cache com Redis.
+    </li>
+    <li style="margin-bottom:1.5rem; position:relative; padding-left:2rem;">
+      <span style="position:absolute; left:0; top:0; font-size:1.2rem; color:#986dff;">&#9679;</span>
+      <strong>Abril 2024:</strong> Desenvolvimento da interface de usuário e design da experiência.
+    </li>
+  </ul>
+
+  <!-- Tecnologias Usadas -->
+  <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem; cursor:pointer; display:flex; align-items:center;" onclick="toggleSection('technologies', 'technologies-toggle')">
+    <i class="fas fa-cogs" style="margin-right:0.5rem; color:#f39c12;"></i> Tecnologias Usadas 
+    <span id="technologies-toggle" style="font-size:0.8rem; color:#007bff; margin-left:auto; transition: transform 0.3s ease;">&#9660;</span>
+  </h3>
+  <ul id="technologies" style="font-family:'Poppins', sans-serif; list-style:none; padding:0; display:none; overflow:hidden; transition: max-height 0.5s ease;">
+    <li style="margin-bottom:1rem;">
+      <strong>Java</strong> - Linguagem de programação utilizada no desenvolvimento do backend.
+    </li>
+    <li style="margin-bottom:1rem;">
+      <strong>Spring Boot</strong> - Framework para simplificar o desenvolvimento do backend.
+    </li>
+    <li style="margin-bottom:1rem;">
+      <strong>Spring Data JPA</strong> - Utilizado para interagir com o banco de dados MongoDB.
+    </li>
+    <li style="margin-bottom:1rem;">
+      <strong>MongoDB</strong> - Banco de dados NoSQL utilizado para armazenar dados.
+    </li>
+    <li style="margin-bottom:1rem;">
+      <strong>Redis</strong> - Sistema de cache utilizado para melhorar a performance.
+    </li>
+    <li style="margin-bottom:1rem;">
+      <strong>Spring Security</strong> - Framework para implementar autenticação e controle de acesso.
+    </li>
+  </ul>
+
+  <!-- Galeria de Imagens -->
+  <div class="project-gallery" style="margin-top:1rem;">
+    <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
+      <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
+    </h3>
+    <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
+      <img src="images/portfolio/img-1.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+      <img src="images/portfolio/img-2.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+    </div>
+  </div>
+
+  <!-- Desafios e Soluções -->
+  <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+    <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
+  </p>
+  <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+    <strong><i class="fas fa-exclamation-circle"></i> Desafios:</strong> Integrar 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">design de produto</strong> com 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">tecnologia de AR</strong>, necessitando conhecimento de 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">C#</strong> e 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Unity 3D</strong>. Além disso, criar uma 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">identidade visual coesa</strong> e intuitiva para usuários de diferentes perfis, como artistas e compradores.
+  </p>
+
+  <!-- Resultados e Próximos Passos -->
+  <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+    <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A plataforma permite que os usuários descubram 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">obras de arte</strong>, aprendam mais sobre os artistas e visualizem pinturas em seus próprios espaços usando AR. O projeto destacou a importância de uma 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">experiência de usuário personalizada</strong> e a necessidade de um 
+    <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">design visual claro</strong> e diferenciado.
+  </p>
+  `;
+}
+
   
 // Fecha o modal ao clicar no botão de fechar
 document.querySelector('.close').addEventListener('click', function() {
@@ -197,3 +284,12 @@ window.onclick = function(event) {
       document.getElementById('projectModal').style.display = 'none';
   }
 };
+
+// Icone dropdown
+function toggleSection(sectionId, toggleId) {
+  const section = document.getElementById(sectionId);
+  const toggle = document.getElementById(toggleId);
+  const isVisible = section.style.display === 'block';
+  section.style.display = isVisible ? 'none' : 'block';
+  toggle.innerHTML = isVisible ? '&#9660;' : '&#9650;';
+}
