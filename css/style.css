@@ -8595,6 +8595,25 @@ a.smllbtnn {
   }
 }
 
+.project-links a {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: inherit; /* Mantém a cor definida no estilo inline */
+  align-items: center;
+  padding: 0.75rem 1.5rem; /* Espaçamento interno */
+  border-radius: 4px; /* Bordas arredondadas */
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; /* Transição suave incluindo escala */
+  background-color: transparent; /* Fundo transparente inicialmente */
+  border: 2px solid; /* Define a borda */
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.project-links a:hover {
+  color: #fff; /* Cor do texto e ícone ao passar o mouse */
+  background-color: inherit; /* Mantém a cor de fundo definida no estilo inline */
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse */
+}
 
 .project-links {
   display: flex;
@@ -8606,21 +8625,6 @@ a.smllbtnn {
   margin: 0;
   font-size: 15px;
   padding-bottom: 20px;
-}
-
-.project-links a {
-  text-decoration: none; /* Remove o sublinhado padrão */
-  color: inherit; /* Mantém a cor definida no estilo inline */
-  align-items: center;
-  padding: 0.75rem 1.5rem; /* Espaçamento interno */
-  border-radius: 4px; /* Bordas arredondadas */
-  transition: color 0.3s ease, background-color 0.3s ease; /* Transição suave */
-  background-color: transparent; /* Fundo transparente inicialmente */
-}
-
-.project-links a:hover {
-  color: #fff; /* Cor do texto e ícone ao passar o mouse */
-  background-color: inherit; /* Mantém a cor de fundo definida no estilo inline */
 }
 
 .project-links i {
