@@ -45,11 +45,6 @@ function getProject1Content() {
    <!-- Título do Projeto -->
     <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema de Gestão de Usuários</h2>
     
- <!-- GIF -->
-    <img src="images/Gif/img-36.gif" alt="Demonstração do Sistema de Gestão de Usuários" 
-     style="width:100%; height:auto; max-height:200px; object-fit:cover; border-radius:12px; box-shadow:0 6px 12px rgba(0,0,0,0.3); transition:transform 0.3s ease, box-shadow 0.3s ease;" 
-     this.style.boxShadow='0 8px 16px rgba(0,0,0,0.4)';"this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';">
-    </div>
 
       <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
@@ -109,11 +104,6 @@ function getProject2Content() {
     <!-- Título do Projeto -->
     <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema de Gestão de Usuários</h2>
     
- <!-- GIF -->
-    <img src="images/Gif/img-39.gif" alt="Demonstração do Sistema de Gestão de Usuários" 
-     style="width:100%; height:auto; max-height:200px; object-fit:cover; border-radius:12px; box-shadow:0 6px 12px rgba(0,0,0,0.3); transition:transform 0.3s ease, box-shadow 0.3s ease;" 
-     this.style.boxShadow='0 8px 16px rgba(0,0,0,0.4)';"this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';">
-    </div>
 
       <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
@@ -178,11 +168,7 @@ function getProject3Content() {
     <!-- Título do Projeto -->
     <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Painter AR</h2>
 
-    <!-- GIF -->
-    <img src="images/Gif/img-40.gif" alt="Demonstração do Sistema de Gestão de Usuários" 
-     style="width:100%; height:auto; max-height:200px; object-fit:cover; border-radius:12px; box-shadow:0 6px 12px rgba(0,0,0,0.3); transition:transform 0.3s ease, box-shadow 0.3s ease;" 
-     onmouseover="this.style.boxShadow='0 8px 16px rgba(0,0,0,0.4)';" onmouseout="this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';">
-
+  
     <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
       <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O projeto <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Painter AR</strong> foi desenvolvido utilizando <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">C#</strong> e 
