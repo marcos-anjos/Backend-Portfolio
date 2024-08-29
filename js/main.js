@@ -43,35 +43,34 @@ function showModal(projectId) {
 function getProject1Content() {
   return `
    <!-- Título do Projeto -->
-    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema de Gestão de Usuários</h2>
+    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema GPS para Identificação de Pontos de Interesse</h2>
     
-
       <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> para o backend, com 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Data JPA</strong> para interagir com o 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MongoDB</strong>. O <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Redis</strong> foi utilizado para cache de dados e o 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para autenticação e controle de acesso.
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Plataforma inteligente desenvolvida em 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong>, utilizando 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">API REST</strong> para localização de pontos de interesse (POIs) com base em coordenadas GPS. O sistema integra uma base de dados geográfica e permite busca por proximidade.
     </p>
 
     <!-- Links do Projeto -->
-<div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-  <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease;">
-    <i class="fab fa-github"></i> GitHub
-  </a>
-  <a href="https://live-demo.com/projeto1" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease;">
-    <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
-  </a>
-</div>
-     <!-- Galeria de Imagens -->
+    <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
+      <a href="https://github.com/usuario/localizador-pois-gps" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease;">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://live-demo.com/projeto1" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease;">
+        <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
+      </a>
+    </div>
+
+    <!-- Galeria de Imagens -->
     <div class="project-gallery" style="margin-top:1rem;">
       <h3 style="font-family:'Poppins', sans-serif; font-size:1rem; margin-bottom:0.5rem;">
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-12.jpg" alt="Tela principal do Sistema de Gestão de Usuários" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-13.jpg" alt="Visualização do Sistema de Gestão" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-12.jpg" alt="Interface principal do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-13.jpg" alt="Tela de busca do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
@@ -81,21 +80,19 @@ function getProject1Content() {
     </p>
     <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
       <li>
-        <strong><i class="fas fa-exclamation-circle"></i> Desafio:</strong> Implementar um sistema de autenticação robusto com integração a múltiplos provedores de identidade (como OAuth).
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de 
-        <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para configurar autenticação baseada em tokens e integração com provedores de OAuth.
+        <strong><i class="fas fa-exclamation-circle"></i> Desafio:</strong> Garantir a precisão na localização de POIs com base em coordenadas GPS variáveis.
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de algoritmos de cálculo de distância geográfica e otimização da busca por proximidade utilizando o banco de dados geográfico.
       </li>
     </ul>
 
     <!-- Resultados e Próximos Passos -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
       <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> 
-      A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">JPA</strong> possibilitou um desenvolvimento ágil e eficiente, com alto desempenho e fácil manutenção. 
+      A plataforma foi desenvolvida com sucesso, permitindo uma busca eficiente e precisa por POIs em um raio de distância determinado. A integração de serviços REST com a base de dados geográfica oferece alta performance e flexibilidade para futuros aprimoramentos.
     </p>
   `;
 }
+
 
 // Detalhamento do Projeto II
 function getProject2Content() {
