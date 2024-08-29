@@ -8400,13 +8400,13 @@ a.smllbtnn {
 /* Estilo do modal */
 .modal-content {
   background-color: #ffffff; /* Cor branca mais pura */
-  margin: 5% auto;
+  margin: 5.5% auto;
   padding: 30px;
   border: none; /* Remove a borda padrão */
   width: 90%; /* Ajuste a largura para telas pequenas */
   max-width: 700px; /* Reduzido para um layout mais elegante */
   max-height: 85%;
-  border-radius: 12px 12px 12px 12px; /* Bordas mais arredondadas para um visual mais suave */
+  border-radius: 4px 4px 4px 4px; /* Bordas mais arredondadas para um visual mais suave */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Sombra mais suave e difusa */
   font-family: 'Poppins', sans-serif;
   position: relative;
