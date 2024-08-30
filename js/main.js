@@ -69,8 +69,8 @@ function getProject1Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-12.jpg" alt="Interface principal do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-13.jpg" alt="Tela de busca do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Interface principal do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Tela de busca do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
@@ -127,8 +127,8 @@ function getProject2Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-12.jpg" alt="Tela principal do Sistema de Gestão de Usuários" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-13.jpg" alt="Visualização do Sistema de Gestão" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Tela principal do Sistema de Gestão de Usuários" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Visualização do Sistema de Gestão" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
         </div>
     </div>
 
@@ -188,8 +188,8 @@ function getProject3Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-1.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-2.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
