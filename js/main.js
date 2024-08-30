@@ -238,3 +238,34 @@ function toggleSection(sectionId, toggleId) {
   section.style.display = isVisible ? 'none' : 'block';
   toggle.innerHTML = isVisible ? '&#9660;' : '&#9650;';
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const projectItems = document.querySelectorAll('.single-card-item');
+
+  filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+          const filterValue = button.getAttribute('data-filter');
+          filterProjects(filterValue);
+          setActiveButton(button);
+      });
+  });
+
+  function filterProjects(category) {
+      projectItems.forEach(item => {
+          const itemCategories = item.getAttribute('data-category').split(' ');
+          if (category === 'all' || itemCategories.includes(category)) {
+              item.style.display = 'block';
+          } else {
+              item.style.display = 'none';
+          }
+      });
+  }
+
+  function setActiveButton(clickedButton) {
+      filterButtons.forEach(button => {
+          button.classList.remove('active-filter');
+      });
+      clickedButton.classList.add('active-filter');
+  }
+});

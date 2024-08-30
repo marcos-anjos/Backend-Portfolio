@@ -442,6 +442,12 @@ margin-bottom: 20px;
 	img {
 		object-fit: cover;
 	}
+	.project-filter {
+        margin-bottom: -30px;
+    }
+	.filter-btn {
+        border-radius: 30px;
+    }
 </style>
 
 <!-- Modal -->
@@ -466,9 +472,38 @@ margin-bottom: 20px;
 		</div>
 	  </div>
 	  <div class="row">
+
+		<!-- Botões de Filtro -->
+		<div class="project-filter">
+			<button class="filter-btn active-filter" data-filter="all">
+				<i class="fas fa-list"></i> Todos
+			</button>
+			<button class="filter-btn" data-filter="java">
+				<i class="fab fa-java"></i> Java
+			</button>
+			<button class="filter-btn" data-filter="spring-boot">
+				<i class="fas fa-leaf"></i> Spring Boot
+			</button>
+			<button class="filter-btn" data-filter="docker">
+				<i class="fab fa-docker"></i> Docker
+			</button>
+			<button class="filter-btn" data-filter="database">
+				<i class="fas fa-database"></i> Banco de Dados
+			</button>
+		    <button class="filter-btn" data-filter="git">
+				<i class="fab fa-git-alt"></i> Git
+			</button>
+			<button class="filter-btn" data-filter="rest-api">
+				<i class="fas fa-cloud"></i> REST API
+			</button>
+			<button class="filter-btn" data-filter="micro-projects">
+				<i class="fas fa-project-diagram"></i> Micro Projetos
+			</button>
+			
+		</div>
 		
 		<!-- Projeto 1 -->
-		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="spring-boot">
 			<div class="isotope_item">
 				<div class="item-image">
 					<a href="#" class="project-link" data-project="1">
@@ -493,7 +528,7 @@ margin-bottom: 20px;
 		</div>
 
 	<!-- Projeto 2 -->
-	<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+	<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="java backend">
 		<div class="isotope_item">
 		<div class="item-image">
 			<a href="#" class="project-link" data-project="2">
@@ -517,7 +552,7 @@ margin-bottom: 20px;
 	</div>
 	
 	<!-- Projeto 3 -->
-	<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+	<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="aws">
 		<div class="isotope_item">
 		<div class="item-image">
 			<a href="#" class="project-link" data-project="3">

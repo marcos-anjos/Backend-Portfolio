@@ -8348,22 +8348,32 @@ a.smllbtnn {
   margin-bottom: -15px; /* Adjust as needed to reduce space */
 }
 
-/* Responsive Adjustments */
-@media (max-width: 600px) {
+/* Estilos responsivos */
+@media (max-width: 768px) {
   .filter-btn {
-    font-size: 14px;
-    padding: 6px 8px;
-  }
-
-  .project-filter {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .filter-btn {
-    margin: 5px 0;
+      font-size: 12px; /* Reduz o tamanho da fonte em telas menores */
+      padding: 8px 12px; /* Ajusta o espaçamento interno */
+      margin: 5px; /* Ajusta a margem para melhor disposição */
   }
 }
+
+@media (max-width: 576px) {
+  .filter-btn {
+      display: block; /* Faz os botões ocuparem toda a largura disponível em telas muito pequenas */
+      width: calc(100% - 20px); /* Define a largura como 100% menos a margem */
+      margin: 10px auto; /* Ajusta a margem para centralizar os botões e melhorar a disposição vertical */
+  }
+}
+
+@media (max-width: 375px) {
+  .filter-btn {
+      font-size: 10px; /* Reduz o tamanho da fonte para telas muito pequenas */
+      padding: 6px 10px; /* Ajusta o espaçamento interno para garantir que o botão não fique muito grande */
+      width: calc(100% - 20px); /* Define a largura como 100% menos a margem */
+      margin: 8px auto; /* Ajusta a margem para melhor disposição vertical */
+  }
+}
+
 
 /* Adicionado espaçamento entre os projetos */
 .single-card-item {
