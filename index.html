@@ -447,7 +447,11 @@ margin-bottom: 20px;
     }
 	.filter-btn {
         border-radius: 30px;
+		transition: transform 0.3s ease; /* Transições suaves para o hover e mudança de fundo */
     }
+	.filter-btn:hover {
+    transform: translateY(-3px); /* Pequeno levantamento no hover */
+}
 </style>
 
 <!-- Modal -->
@@ -491,7 +495,7 @@ margin-bottom: 20px;
 				<i class="fab fa-git-alt"></i> Git
 			</button>
 			<button class="filter-btn" data-filter="api">
-				<i class="fas fa-puzzle-piece"></i> API
+				<i class="fas fa-cloud"></i> APIs
 			</button>			
 			<button class="filter-btn" data-filter="gui">
 				<i class="fas fa-desktop"></i> Interface Gráfica
