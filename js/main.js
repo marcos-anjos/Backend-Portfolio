@@ -57,10 +57,10 @@ function getProject1Content() {
 
     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
@@ -108,12 +108,12 @@ function getProject2Content() {
       <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MySQL</strong> para persistência de dados.
     </p>
 
-    <!-- Links do Projeto -->
+     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
@@ -162,12 +162,12 @@ function getProject3Content() {
       <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Informações a serem definidas.
     </p>
 
-    <!-- Links do Projeto -->
+     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
