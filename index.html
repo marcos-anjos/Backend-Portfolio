@@ -276,7 +276,7 @@ margin-bottom: 20px;
 <div class="row">
 	<div class="col-lg-6 v-center">
 		<div class="image-block">
-			<img src="images/hero/img-16.svg" alt="sobre" class="img-fluid no-shadow" />
+			<img src="images/hero/img-34.svg" alt="sobre" class="img-fluid no-shadow" />
 		</div>
 	</div>
 	<div class="col-lg-6">
@@ -428,30 +428,29 @@ margin-bottom: 20px;
 </section>
 
 
-
-
-
 <!--===================== PORTFOLIO =====================-->
 <style>
 	.item-image {
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 	}
 	#portfolio p {
-		text-align: justify; /* Alinha o texto dos parágrafos dentro do portfólio */
-	}
+    text-align: justify; /* Alinha o texto dos parágrafos dentro do portfólio */
+    line-height: 1.6; /* Melhora a legibilidade do texto */
+}
 	img {
 		object-fit: cover;
 	}
 	.project-filter {
-        margin-bottom: -30px;
+        margin-bottom: -20px;
     }
 	.filter-btn {
-        border-radius: 30px;
-		transition: transform 0.3s ease; /* Transições suaves para o hover e mudança de fundo */
-    }
+    border-radius: 50px; /* Botões mais arredondados */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves para a cor de fundo e levantamento */
+    padding: 0.5rem 1rem; /* Ajusta o padding para botões */
+	}
 	.filter-btn:hover {
-    transform: translateY(-3px); /* Pequeno levantamento no hover */
-}
+	transform: translateY(-3px); /* Pequeno levantamento no hover */
+	}	
 </style>
 
 <!-- Modal -->
@@ -501,18 +500,18 @@ margin-bottom: 20px;
 				<i class="fas fa-desktop"></i> Interface Gráfica
 			</button>
 			<button class="filter-btn" data-filter="micro-projects">
-				<i class="fas fa-folder-open"></i> Micro Projetos
+				<i class="fas fa-cube"></i> Mini Projetos
 			</button>		
 		</div>
 		
-		<!-- Projeto 1 -->
+		<!-- Projeto 1 - Sistema GPS para Identificação de POIs -->
 		<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="java">
 			<div class="isotope_item">
 				<div class="item-image">
 					<a href="#" class="project-link" data-project="1">
-						<img src="images/Gif/gif-48.gif" alt="Plataforma de Localização de Pontos de Interesse via GPS" class="img-fluid" style="height: 250px; width: 100%;" />
+						<img src="images/portfolio/img-0.jpg" alt="Plataforma de Localização de POIs via GPS" class="img-fluid" style="height: 250px; width: 100%;" />
 						<div class="hover-icon">
-							<img src="click.gif" alt="Clique" /> <!-- Substitua pelo caminho do seu GIF -->
+							<img src="click.gif" alt="Clique" />
 						</div>
 					</a>
 				</div>
@@ -524,61 +523,54 @@ margin-bottom: 20px;
 						<button class="keyword-btn">Geolocalização</button>
 					</div>
 					<h4><a href="#" class="project-link" data-project="1">Sistema GPS para Identificação de POIs</a></h4>
-					<p>Plataforma para encontrar pontos de interesse próximos usando GPS e serviços REST e integração com bases de dados geográficas.</p>
-
+					<p>Plataforma para encontrar pontos de interesse próximos usando GPS e serviços REST, com integração a bancos de dados geográficos.</p>
 				</div>
 			</div>
 		</div>
 
-	<!-- Projeto 2 -->
-	<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="java backend">
-		<div class="isotope_item">
-		<div class="item-image">
-			<a href="#" class="project-link" data-project="2">
-			<img src="images\portfolio\img-26.jfif" alt="Sistema de E-commerce" class="img-fluid" style="height: 250px; width: 100%;" />
-			<div class="hover-icon">
-				<img src="click.gif" alt="Clique" /> <!-- Substitua pelo caminho do seu GIF -->
+
+		<!-- Projeto 2 - Sistema de Gerenciamento de Despesas -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="java backend">
+			<div class="isotope_item">
+				<div class="item-image">
+					<a href="#" class="project-link" data-project="2">
+						<img src="images/portfolio/img-0.jpg" alt="Sistema de Gerenciamento de Despesas" class="img-fluid" style="height: 250px; width: 100%;" />
+						<div class="hover-icon">
+							<img src="click.gif" alt="Clique" /> <!-- Substitua pelo caminho do seu GIF -->
+						</div>
+					</a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Java</button>
+						<button class="keyword-btn">Spring MVC</button>
+						<button class="keyword-btn">Thymeleaf</button>
+						<button class="keyword-btn">MySQL</button>
+					</div>
+					<h4 href="#" class="project-link" data-project="2">Sistema de Gerenciamento de Despesas</h4>
+					<p>Aplicação para gerenciamento de despesas pessoais, permitindo o cadastro, atualização e exclusão de despesas.</p>
+				</div>
 			</div>
-			</a>
 		</div>
-		<div class="item-info">
-			<div class="keywords">
-			<button class="keyword-btn">Java</button>
-			<button class="keyword-btn">Spring Boot</button>
-			<button class="keyword-btn">Microservices</button>
-			<button class="keyword-btn">RabbitMQ</button>
+
+		<!-- Projeto 3 - A Decidir -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="aws">
+			<div class="isotope_item">
+			<div class="item-image">
+				<a href="#" class="project-link" data-project="3">
+				<img src="images/portfolio/img-0.jpg" alt="Plataforma de Notificações" class="img-fluid" style="height: 250px; width: 100%;" />
+				<div class="hover-icon">
+					<img src="click.gif" alt="Clique" /> <!-- Substitua pelo caminho do seu GIF -->
+				</div>
+				</a>
 			</div>
-			<h4><a href="#" class="project-link" data-project="2">Sistema de E-commerce</a></h4>
-			<p>Desenvolvimento de uma plataforma básica de e-commerce, com recursos para pagamento e gestão de produtos, utilizando microserviços e RabbitMQ.</p>
-		</div>
-		</div>
-	</div>
-	
-	<!-- Projeto 3 -->
-	<div class="col-lg-4 col-md-4 col-sm-6 mt60 single-card-item" data-category="aws">
-		<div class="isotope_item">
-		<div class="item-image">
-			<a href="#" class="project-link" data-project="3">
-			<img src="images/Gif/img-40.gif" alt="Plataforma de Notificações" class="img-fluid" style="height: 250px; width: 100%;" />
-			<div class="hover-icon">
-				<img src="click.gif" alt="Clique" /> <!-- Substitua pelo caminho do seu GIF -->
+			<div class="item-info">
+				<!-- Removido o título e keywords -->
+				<p>Informações a serem definidas.</p>
 			</div>
-			</a>
-		</div>
-		<div class="item-info">
-			<div class="keywords">
-			<button class="keyword-btn">Java</button>
-			<button class="keyword-btn">Spring Boot</button>
-			<button class="keyword-btn">RabbitMQ</button>
-			<button class="keyword-btn">Microservices</button>
 			</div>
-			<h4><a href="#" class="project-link" data-project="3">Plataforma de Notificações</a></h4>
-			<p>Desenvolvimento de uma plataforma para enviar notificações, utilizando Spring Boot para o backend e RabbitMQ para o gerenciamento das mensagens.</p>
 		</div>
-		</div>
-	</div>
-	
-  
+
 	  </div>
 	</div>
   </section>

@@ -39,27 +39,29 @@ function showModal(projectId) {
   modalBody.innerHTML = content;
   modal.style.display = 'block';
 }
-// Detalhamento do Projeto I
+
+
+// Detalhamento do Projeto I - Sistema GPS para Identificação de POIs
 function getProject1Content() {
   return `
-   <!-- Título do Projeto -->
+    <!-- Título do Projeto -->
     <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema GPS para Identificação de Pontos de Interesse</h2>
     
-      <!-- Descrição do Projeto -->
+    <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Plataforma inteligente desenvolvida em 
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Este projeto é uma aplicação desenvolvida em 
       <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong>, utilizando 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">API REST</strong> para localização de pontos de interesse (POIs) com base em coordenadas GPS. O sistema integra uma base de dados geográfica e permite busca por proximidade.
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong>. Ele utiliza 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">API REST</strong> para criar, listar e buscar pontos de interesse (POIs) com base em coordenadas GPS. A aplicação interage com uma base de dados geográfica e permite buscas por proximidade.
     </p>
 
     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="https://github.com/usuario/localizador-pois-gps" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease;">
-        <i class="fab fa-github"></i> GitHub
+      <a href="#" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="https://live-demo.com/projeto1" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease;">
-        <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
+      <a href="#" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
 
@@ -69,8 +71,8 @@ function getProject1Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-0.jpg" alt="Interface principal do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-0.jpg" alt="Tela de busca do Localizador de POIs via GPS" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-1.jpg" alt="Tela principal do sistema GPS para identificação de POIs" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-2.jpg" alt="Tela de busca do sistema GPS para POIs" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
@@ -93,33 +95,28 @@ function getProject1Content() {
   `;
 }
 
-
-// Detalhamento do Projeto II
+// Detalhamento do Projeto II - Sistema de Gerenciamento de Despesas
 function getProject2Content() {
   return `
-
     <!-- Título do Projeto -->
-    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema de Gestão de Usuários</h2>
+    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema de Gerenciamento de Despesas</h2>
     
-
-      <!-- Descrição do Projeto -->
+    <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O sistema foi desenvolvido utilizando <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> para o backend, com 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Data JPA</strong> para interagir com o 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MongoDB</strong>. O <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Redis</strong> foi utilizado para cache de dados e o 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para autenticação e controle de acesso.
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Este sistema permite o gerenciamento de despesas pessoais, incluindo funcionalidades para adicionar, editar, visualizar e excluir despesas. Desenvolvido com <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring MVC</strong>, com <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Thymeleaf</strong> para renderização de páginas e 
+      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MySQL</strong> para persistência de dados.
     </p>
 
     <!-- Links do Projeto -->
-<div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-  <a href="https://github.com/usuario/sistema-gestao-usuarios" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease;">
-    <i class="fab fa-github"></i> GitHub
-  </a>
-  <a href="https://live-demo.com/projeto1" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease;">
-    <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
-  </a>
-</div>
+    <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
+      <a href="#" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
+      </a>
+      <a href="#" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
+      </a>
+    </div>
 
     <!-- Galeria de Imagens -->
     <div class="project-gallery" style="margin-top:1rem;">
@@ -127,9 +124,9 @@ function getProject2Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-0.jpg" alt="Tela principal do Sistema de Gestão de Usuários" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-0.jpg" alt="Visualização do Sistema de Gestão" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        </div>
+        <img src="images/portfolio/expense-tracker-1.jpg" alt="Tela de Adição de Despesas" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-2.jpg" alt="Visualização de Despesas" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+      </div>
     </div>
 
     <!-- Desafios e Soluções -->
@@ -138,47 +135,40 @@ function getProject2Content() {
     </p>
     <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
       <li>
-        <strong><i class="fas fa-exclamation-circle"></i> Desafio 1:</strong> Implementar um sistema de autenticação robusto que permita a integração com múltiplos provedores de identidade (como OAuth).
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Utilização de 
-        <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Security</strong> para configurar autenticação baseada em tokens e integração com provedores de OAuth.
+        <strong><i class="fas fa-exclamation-circle"></i> Desafio 1:</strong> Calcular e exibir o total de despesas em tempo real para o usuário.
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de cálculo dinâmico utilizando streams do Java para somar os valores das despesas e exibir o total na interface do usuário.
       </li>
       <li>
-        <strong><i class="fas fa-exclamation-circle"></i> Desafio 2:</strong> Garantir a segurança dos dados sensíveis, como senhas, utilizando criptografia forte.
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de criptografia 
-        <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">AES</strong> para senhas e dados sensíveis, além de práticas recomendadas para armazenamento seguro.
+        <strong><i class="fas fa-exclamation-circle"></i> Desafio 2:</strong> Facilitar a adição e edição de despesas através de uma interface intuitiva.
+        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Uso do Thymeleaf para criar formulários amigáveis e simplificados que permitam interações diretas com o backend através de mapeamentos Spring MVC.
       </li>
     </ul>
     
     <!-- Resultados e Próximos Passos -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A aplicação foi implementada com sucesso, oferecendo uma interface amigável e segura para a gestão de usuários. O uso de 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">JPA</strong> permitiu um desenvolvimento rápido e eficiente, com alto desempenho e fácil manutenção.
+      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A aplicação está funcionando conforme esperado, permitindo um controle eficaz das despesas. Os próximos passos incluem a integração de gráficos para melhor visualização dos dados financeiros e a implementação de um sistema de notificações para alertar sobre despesas recorrentes ou limites de gastos.
     </p>
   `;
 }
 
-
+// Detalhamento do Projeto III - A Decidir
 function getProject3Content() {
   return `
-    
     <!-- Título do Projeto -->
-    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Painter AR</h2>
+    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">A Decidir</h2>
 
-  
     <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> O projeto <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Painter AR</strong> foi desenvolvido utilizando <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">C#</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Unity 3D</strong> para a realidade aumentada (AR). A plataforma permite que os usuários descubram e visualizem obras de arte em seus próprios espaços virtuais.
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Informações a serem definidas.
     </p>
 
     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="https://github.com/usuario/painter-ar" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease;">
-        <i class="fab fa-github"></i> GitHub
+      <a href="#" target="_blank" style="color:#007bff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #007bff; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="https://live-demo.com/projeto3" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease;">
-        <i class="fas fa-external-link-alt"></i> Visualizar ao Vivo
+      <a href="#" target="_blank" style="color:#28a745; text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; border: 2px solid #28a745; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
 
@@ -188,8 +178,8 @@ function getProject3Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-0.jpg" alt="Tela principal do Painter AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-0.jpg" alt="Visualização em AR" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Imagem 1" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/img-0.jpg" alt="Imagem 2" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
@@ -198,20 +188,12 @@ function getProject3Content() {
       <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
     </p>
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-exclamation-circle"></i> Desafios:</strong> Integrar 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">design de produto</strong> com 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">tecnologia de AR</strong>, necessitando conhecimento de 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">C#</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Unity 3D</strong>. Além disso, criar uma 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">identidade visual coesa</strong> e intuitiva para usuários de diferentes perfis, como artistas e compradores.
+      <strong><i class="fas fa-exclamation-circle"></i> Desafios:</strong> Informações a serem definidas.
     </p>
 
     <!-- Resultados e Próximos Passos -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A plataforma permite que os usuários descubram 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">obras de arte</strong>, aprendam mais sobre os artistas e visualizem pinturas em seus próprios espaços usando AR. O projeto destacou a importância de uma 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">experiência de usuário personalizada</strong> e a necessidade de um 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">design visual claro</strong> e diferenciado.
+      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> Informações a serem definidas.
     </p>
   `;
 }
