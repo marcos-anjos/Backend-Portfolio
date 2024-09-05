@@ -8316,9 +8316,10 @@ a.smllbtnn {
 /* Project Filter Styles */
 .project-filter {
   display: flex;
+  flex-wrap: wrap; /* Permite quebrar os botões em novas linhas em telas menores */
   justify-content: center;
-  margin-bottom: 30px; /* Space below the buttons */
-  margin-top: 20px; /* Increased bottom spacing */
+  gap: 10px; /* Espaçamento consistente entre os botões */
+  margin: 20px 0; /* Espaçamento superior e inferior */
 }
 
 .filter-btn {
@@ -8326,11 +8327,10 @@ a.smllbtnn {
   color: #2E8B57;
   background: transparent;
   border: 1px solid #2E8B57;
-  padding: 8px 10px; /* Increased padding */
+  padding: 8px 12px; /* Espaçamento interno confortável */
   border-radius: 5px;
-  margin: 0 3px; /* Increased spacing between buttons */
   cursor: pointer;
-  transition-duration: 0.3s; /* Smooth transition duration */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para cores */
 }
 
 .filter-btn:hover,
@@ -8344,33 +8344,28 @@ a.smllbtnn {
   margin-right: 5px;
 }
 
-.project-filter:nth-child(2) {
-  margin-bottom: -15px; /* Adjust as needed to reduce space */
-}
-
 /* Estilos responsivos */
 @media (max-width: 768px) {
   .filter-btn {
-      font-size: 12px; /* Reduz o tamanho da fonte em telas menores */
-      padding: 8px 12px; /* Ajusta o espaçamento interno */
-      margin: 5px; /* Ajusta a margem para melhor disposição */
+      font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
+      padding: 7px 10px; /* Ajuste de padding para proporcionalidade */
+      margin: 3px; /* Margem menor para acomodar mais botões */
   }
 }
 
 @media (max-width: 576px) {
   .filter-btn {
-      display: block; /* Faz os botões ocuparem toda a largura disponível em telas muito pequenas */
-      width: calc(100% - 20px); /* Define a largura como 100% menos a margem */
-      margin: 10px auto; /* Ajusta a margem para centralizar os botões e melhorar a disposição vertical */
+      flex: 1 1 100%; /* Botões ocupam toda a largura disponível */
+      width: auto; /* Define a largura automaticamente */
+      margin: 5px 0; /* Centraliza e ajusta as margens verticais */
   }
 }
 
 @media (max-width: 375px) {
   .filter-btn {
-      font-size: 10px; /* Reduz o tamanho da fonte para telas muito pequenas */
-      padding: 6px 10px; /* Ajusta o espaçamento interno para garantir que o botão não fique muito grande */
-      width: calc(100% - 20px); /* Define a largura como 100% menos a margem */
-      margin: 8px auto; /* Ajusta a margem para melhor disposição vertical */
+      font-size: 12px; /* Fonte menor para telas pequenas */
+      padding: 6px 8px; /* Padding ajustado para botões menores */
+      margin: 4px 0; /* Margem vertical ajustada */
   }
 }
 
