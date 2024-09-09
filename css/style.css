@@ -8610,14 +8610,14 @@ a.smllbtnn {
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
-  border: 2px solid #007bff; /* Borda inicial */
+  border: 2px solid #181717; /* Borda inicial */
   transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
 }
 
 /* Estilo específico para o link GitHub */
 .project-links a:nth-child(1) {
-  color: #007bff; /* Cor do texto */
-  border-color: #007bff; /* Cor da borda */
+  color: #181717; /* Cor do texto */
+  border-color: #181717; /* Cor da borda */
 }
 
 /* Estilo específico para o link de Visualizar ao Vivo */
@@ -8629,7 +8629,7 @@ a.smllbtnn {
 /* Hover para ambos os links */
 .project-links a:hover:nth-child(1)  {
   transform: translateY(-3px); /* Efeito de elevação no hover */
-  background-color: #007bff; /* Ajuste para uma cor harmoniosa, pode ser personalizada */
+  background-color: #181717; /* Ajuste para uma cor harmoniosa, pode ser personalizada */
   color: white; /* Cor do texto ao passar o mouse */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra aumentada no hover */
 }

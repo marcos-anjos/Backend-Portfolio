@@ -12,6 +12,8 @@
 <meta name="author" content="Marcos Vinicius">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <!-- Incluindo a biblioteca Unicons -->
+ <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="theme-color" content="#c7ecff">
 
@@ -442,10 +444,11 @@ line-height: 1.8; /* Melhora a legibilidade do texto */
 		object-fit: cover;
 	}
 	.project-filter {
-        margin-bottom: -20px;
+        margin-bottom: -30px;
+		margin-top: 30px;
     }
 	.filter-btn {
-    border-radius: 50px; /* Botões mais arredondados */
+    border-radius: 5px; /* Botões mais arredondados */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves para a cor de fundo e levantamento */
     padding: 0.5rem 1rem; /* Ajusta o padding para botões */
 	}
@@ -477,7 +480,7 @@ line-height: 1.8; /* Melhora a legibilidade do texto */
 		<!-- Botões de Filtro -->
 		<div class="project-filter">
 			<button class="filter-btn active-filter" data-filter="all">
-				<i class="fas fa-th"></i> Todos
+				<i class="uil uil-apps"></i> Todos
 			</button>
 			<button class="filter-btn" data-filter="java">
 				<i class="fab fa-java"></i> Java
@@ -492,13 +495,13 @@ line-height: 1.8; /* Melhora a legibilidade do texto */
 				<i class="fab fa-git-alt"></i> Git
 			</button>
 			<button class="filter-btn" data-filter="api">
-				<i class="fas fa-cloud"></i> APIs REST
+				<i class="uil uil-server-network"></i> APIs REST
 			</button>			
 			<button class="filter-btn" data-filter="gui">
 				<i class="fas fa-desktop"></i> Interface Gráfica
 			</button>
 			<button class="filter-btn" data-filter="micro-projects">
-				<i class="fas fa-cube"></i> Mini Projetos
+				<i class="uil uil-brackets-curly"></i> Mini Projetos
 			</button>		
 		</div>
 		
