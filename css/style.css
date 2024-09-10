@@ -8420,7 +8420,7 @@ a.smllbtnn {
   /* Suavização do overflow com padding extra */
   padding-right: calc(30px + 6px); /* Evita sobreposição da barra de rolagem */
   /* Customização da barra de rolagem para navegadores WebKit */
-  scrollbar-width: auto; /* Para navegadores Firefox */
+  scrollbar-width: thin; /* Para navegadores Firefox */
   scrollbar-color: #2E8B57 #f0f0f0; /* Cor da barra e do fundo (para Firefox) */
 }
 
