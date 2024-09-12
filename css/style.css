@@ -8327,7 +8327,7 @@ a.smllbtnn {
   color: #2E8B57;
   background: transparent;
   border: 1px solid #2E8B57;
-  padding: 0.5rem 1rem; /* Ajusta o padding para botões */
+  padding: 0.45rem 1rem; /* Ajusta o padding para botões */
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s; /* Transição suave para cores */
