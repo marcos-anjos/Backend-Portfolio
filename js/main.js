@@ -57,10 +57,10 @@ function getProject1Content() {
 
     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
@@ -110,10 +110,10 @@ function getProject2Content() {
 
      <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
@@ -164,13 +164,13 @@ function getProject3Content() {
 
      <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none;  display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none;  display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
-      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-file-alt" style="font-size:1.2rem;"></i> Artigo Completo
       </a>
     </div>
@@ -181,8 +181,8 @@ function getProject3Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/img-0.jpg" alt="Imagem 1" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/img-0.jpg" alt="Imagem 2" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-1.jpg" alt="A Decidir..." style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-2.jpg" alt="A Decidir..." style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
