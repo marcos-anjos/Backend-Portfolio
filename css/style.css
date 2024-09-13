@@ -8405,7 +8405,7 @@ a.smllbtnn {
 /* Estilo do modal */
 .modal-content {
   background-color: #ffffff; /* Cor branca mais pura */
-  margin: 5.5% auto;
+  margin: 80px auto; /* Margem fixa em pixels */
   padding: 30px;
   border: none; /* Remove a borda padrão */
   width: 90%; /* Ajuste a largura para telas pequenas */
@@ -8533,7 +8533,7 @@ a.smllbtnn {
 @media (max-width: 1024px) {
   .modal-content {
     width: 90%; /* Ajusta a largura para telas médias */
-    margin: 8% auto;
+    margin: 80px auto; /* Margem fixa em pixels */
     padding: 20px; /* Ajusta o padding para telas maiores, mas ainda reduzido */
   }
   
@@ -8557,7 +8557,7 @@ a.smllbtnn {
 @media (max-width: 768px) {
   .modal-content {
     width: 95%; /* Ajusta a largura para telas menores */
-    margin: 10% auto;
+    margin: 80px auto; /* Margem fixa em pixels */
     padding: 15px; /* Reduz o padding */
   }
   
@@ -8581,7 +8581,7 @@ a.smllbtnn {
 @media (max-width: 480px) {
   .modal-content {
     width: 100%; /* Largura total para dispositivos muito pequenos */
-    margin: 20% auto;
+    margin: 80px auto; /* Margem fixa em pixels */
     padding: 10px; /* Reduz ainda mais o padding */
   }
   
@@ -8625,7 +8625,11 @@ a.smllbtnn {
   color: #2E8B57; /* Cor do texto */
   border-color: #2E8B57; /* Cor da borda */
 }
-
+/* Estilo específico para o link Blog */
+.project-links a:nth-child(3) {
+  color: #007bff; /* Cor da borda */
+  border-color: #007bff; /* Cor de fundo */
+}
 /* Hover para ambos os links */
 .project-links a:hover:nth-child(1)  {
   transform: translateY(-3px); /* Efeito de elevação no hover */
@@ -8641,7 +8645,13 @@ a.smllbtnn {
   color: white; /* Cor do texto ao passar o mouse */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra aumentada no hover */
 }
-
+/* Hover para o link Blog */
+.project-links a:nth-child(3):hover {
+  transform: translateY(-3px); /* Efeito de elevação no hover */
+  background-color: #007bff; /* Cor de fundo ao passar o mouse */
+  color: #fff; /* Cor do texto ao passar o mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra aumentada no hover */
+}
 /* Efeito ao clicar nos links */
 .project-links a:active {
   transform: translateY(-1px); /* Leve ajuste ao clicar */

@@ -170,6 +170,9 @@ function getProject3Content() {
       <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
+      <a href="#" target="_blank" style="text-decoration:none; padding:0.75rem 1.5rem; border-radius:4px; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fas fa-file-alt" style="font-size:1.2rem;"></i> Artigo Completo
+      </a>
     </div>
 
     <!-- Galeria de Imagens -->
