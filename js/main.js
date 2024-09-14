@@ -171,7 +171,7 @@ function getProject3Content() {
         <i class="fas fa-eye" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
       <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
-        <i class="fab fa-medium medium-icon" style="font-size:1.2rem;"></i> Medium Post
+        <i class="fas fa-file-pdf" style="font-size:1.2rem;"></i> Relatório
       </a>
     </div>
 
@@ -200,8 +200,6 @@ function getProject3Content() {
     </p>
   `;
 }
-
-
   
 // Fecha o modal ao clicar no botão de fechar
 document.querySelector('.close').addEventListener('click', function() {
