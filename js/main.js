@@ -61,7 +61,7 @@ function getProject1Content() {
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
       <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
-        <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
+        <i class="fas fa-eye" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
 
@@ -114,7 +114,7 @@ function getProject2Content() {
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
       <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
-        <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
+        <i class="fas fa-eye" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
     </div>
 
@@ -168,10 +168,10 @@ function getProject3Content() {
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
       <a href="#" target="_blank" style="text-decoration:none;  display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
-        <i class="fas fa-external-link-alt" style="font-size:1.2rem;"></i> Visualizar ao Vivo
+        <i class="fas fa-eye" style="font-size:1.2rem;"></i> Visualizar ao Vivo
       </a>
       <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
-        <i class="fas fa-file-alt" style="font-size:1.2rem;"></i> Artigo Completo
+        <i class="fab fa-medium medium-icon" style="font-size:1.2rem;"></i> Medium Post
       </a>
     </div>
 

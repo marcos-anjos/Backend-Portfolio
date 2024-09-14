@@ -8604,7 +8604,7 @@ a.smllbtnn {
 .project-links a {
   color: #007bff; /* Cor inicial para o link GitHub */
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
+  padding: 0.6rem 1rem; /* Ajuste do padding */
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -8616,19 +8616,20 @@ a.smllbtnn {
 
 /* Estilo específico para o link GitHub */
 .project-links a:nth-child(1) {
-  color: #181717; /* Cor do texto */
-  border-color: #181717; /* Cor da borda */
+  color: #181717; /* Preto escuro */
+  border-color: #181717; /* Preto escuro */
 }
 
 /* Estilo específico para o link de Visualizar ao Vivo */
 .project-links a:nth-child(2) {
-  color: #2E8B57; /* Cor do texto */
-  border-color: #2E8B57; /* Cor da borda */
+  color: #2E8B57; /* Verde (SeaGreen) */
+  border-color: #2E8B57; /* Verde (SeaGreen) */
 }
+
 /* Estilo específico para o link Blog */
 .project-links a:nth-child(3) {
-  color: #007bff; /* Cor da borda */
-  border-color: #007bff; /* Cor de fundo */
+  color: #00c4b3; /* Laranja escuro */
+  border-color: #00c4b3; /* Laranja escuro */
 }
 /* Hover para ambos os links */
 .project-links a:hover:nth-child(1)  {
@@ -8648,7 +8649,7 @@ a.smllbtnn {
 /* Hover para o link Blog */
 .project-links a:nth-child(3):hover {
   transform: translateY(-3px); /* Efeito de elevação no hover */
-  background-color: #007bff; /* Cor de fundo ao passar o mouse */
+  background-color: #00c4b3; /* Cor de fundo ao passar o mouse */
   color: #fff; /* Cor do texto ao passar o mouse */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra aumentada no hover */
 }
