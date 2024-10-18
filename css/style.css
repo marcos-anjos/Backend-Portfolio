@@ -987,7 +987,7 @@ a.play-video::after {
 }
 .common-heading > span {
   color: #479368;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   margin: 0 0 15px;
   display: block;
@@ -1286,16 +1286,18 @@ a.play-video::after {
   margin: 0 0 10px;
 }
 .item-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px; /* Bordas arredondadas do contêiner */
+  height: 360px; /* Altura fixa para o contêiner da imagem */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+.item-image img {
   display: block;
-  width: 100%;
-  border-radius: 10px;
-  background: #f3f9ff;
-  -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
-    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
-    0 25px 40px -30px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
-    0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
-    0 25px 40px -30px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Ajusta a largura para preencher o contêiner */
+  height: 100%; /* Ajusta a altura para preencher o contêiner */
+  object-fit: cover; /* Ajusta a imagem para cobrir o contêiner mantendo a proporção */
+  object-position: center; /* Ajusta o alinhamento da imagem dentro do contêiner */
 }
 
 .item-image::before {
@@ -1333,9 +1335,7 @@ a.play-video::after {
   display: flex;
   position: relative;
 }
-.item-image img {
-  width: 100%;
-}
+
 .portfolio-block {
   padding: 50px;
   border-radius: 8px;
@@ -8424,6 +8424,7 @@ a.smllbtnn {
   scrollbar-color: #2E8B57 #f0f0f0; /* Cor da barra e do fundo (para Firefox) */
 }
 
+
 .modal-content::-webkit-scrollbar {
   width: 12px; /* Largura da barra de rolagem */
 }
@@ -8685,4 +8686,31 @@ a.smllbtnn {
 /* Se desejar ajustar o hover apenas para os textos */
 .item-info:hover .hover-icon, .item-info h4:hover .hover-icon, .item-info p:hover .hover-icon {
   opacity: 1;
+}
+.keywords {
+  margin-top: 5px; /* Adiciona margem superior para espaçamento */
+}
+
+.keyword-btn {
+  padding: 0.125rem 0.5rem; /* Ajusta o padding do botão */
+  border-radius: 9999px; /* Botão com bordas arredondadas */
+  font-size: 0.80rem; /* Tamanho da fonte do botão */
+  background-color: rgba(46, 139, 87, 0.1); /* Cor de fundo com opacidade */
+  color: #2E8B57; /* Cor do texto */
+  margin-right: 0.25rem; /* Margem direita para espaçamento entre botões */
+  margin-bottom: 0.25rem; /* Margem inferior para espaçamento entre botões */
+  border: none; /* Remove a borda padrão do botão */
+  cursor: default; /* Remove o cursor pointer para indicar que o botão não é clicável */
+  display: inline-flex; /* Faz com que os botões se alinhem horizontalmente */
+  align-items: center; /* Alinha o texto verticalmente no centro */
+}
+
+
+/* Estilo para o novo h5 */
+.spaced-title {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.4; /* Ajusta o espaçamento entre as linhas */
+  color: #555; /* Uma cor mais suave e agradável para o texto */
+  font-weight: 450; /* Peso mais leve da fonte */
 }
