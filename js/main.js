@@ -252,3 +252,68 @@ document.addEventListener("DOMContentLoaded", function () {
       clickedButton.classList.add('active-filter');
   }
 });
+
+const { annotate } = RoughNotation;
+
+        const elements = [
+          { id: 'nome', color: '#ADD8E6' }, // Azul Claro
+          { id: 'ciencia', color: '#98FF98' }, // Verde Menta
+          { id: 'ficcao', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'cinema', color: '#ADD8E6' }, // Azul Claro
+          { id: 'programacao', color: '#98FF98' }, // Verde Menta
+          { id: 'tecnologia', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'paixao', color: '#ADD8E6' }, // Azul Claro
+          { id: 'backend', color: '#98FF98' }, // Verde Menta
+          { id: 'java', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'spring', color: '#ADD8E6' }, // Azul Claro
+          { id: 'apis', color: '#98FF98' }, // Verde Menta
+          { id: 'banco', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'git', color: '#ADD8E6' }, // Azul Claro
+          { id: 'versionamento', color: '#98FF98' }, // Verde Menta
+          { id: 'frontend', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'desafios', color: '#ADD8E6' }, // Azul Claro
+          { id: 'habilidades', color: '#98FF98' }, // Verde Menta
+          { id: 'conhecimentos', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'problemas', color: '#ADD8E6' }, // Azul Claro
+          { id: 'solucoes', color: '#98FF98' }, // Verde Menta
+          { id: 'eficientes', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'inovadores', color: '#ADD8E6' }, // Azul Claro
+          { id: 'aprender', color: '#98FF98' }, // Verde Menta
+          { id: 'crescer', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'incrivel', color: '#ADD8E6' } // Azul Claro
+        ];
+
+        // Função para adicionar destaque com atraso
+        function highlightElementsSequentially(elements, delay) {
+            elements.forEach((element, index) => {
+                setTimeout(() => {
+                    const el = document.getElementById(element.id);
+                    if (el && !el.classList.contains('highlighted')) {
+                        const annotation = annotate(el, { type: 'highlight', color: element.color, multiline: true });
+                        annotation.show();
+                        // Marca o elemento como destacado
+                        el.classList.add('highlighted');
+                    }
+                }, index * delay); // Calcula o atraso com base na posição do elemento
+            });
+        }
+
+        // Configura o IntersectionObserver
+        function onIntersection(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    highlightElementsSequentially(elements, 1000); // Inicia o destaque
+                    observer.unobserve(entry.target); // Para observar novamente após a primeira vez
+                }
+            });
+        }
+
+        const observer = new IntersectionObserver(onIntersection, {
+            threshold: 0.1 // 10% da seção visível
+        });
+
+        // Observe a seção
+        const section = document.getElementById('about');
+        if (section) {
+            observer.observe(section);
+        }
