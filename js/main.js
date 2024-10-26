@@ -45,23 +45,23 @@ function showModal(projectId) {
 function getProject1Content() {
   return `
     <!-- Título do Projeto -->
-    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema GPS para Identificação de Pontos de Interesse</h2>
-    
+    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">A Decidir</h2>
+
     <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Este projeto é uma aplicação desenvolvida em 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring Boot</strong>. Ele utiliza 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">API REST</strong> para criar, listar e buscar pontos de interesse (POIs) com base em coordenadas GPS. A aplicação interage com uma base de dados geográfica e permite buscas por proximidade.
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Informações a serem definidas.
     </p>
 
-    <!-- Links do Projeto -->
+     <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none;  display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none;  display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-eye" style="font-size:1.2rem;"></i> Visualizar ao Vivo
+      </a>
+      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fas fa-file-pdf" style="font-size:1.2rem;"></i> Relatório
       </a>
     </div>
 
@@ -71,8 +71,8 @@ function getProject1Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/expense-tracker-1.jpg" alt="Tela principal do sistema GPS para identificação de POIs" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/expense-tracker-2.jpg" alt="Tela de busca do sistema GPS para POIs" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-1.jpg" alt="A Decidir..." style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-2.jpg" alt="A Decidir..." style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
@@ -80,17 +80,13 @@ function getProject1Content() {
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
       <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
     </p>
-    <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
-      <li>
-        <strong><i class="fas fa-exclamation-circle"></i> Desafio:</strong> Garantir a precisão na localização de POIs com base em coordenadas GPS variáveis.
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de algoritmos de cálculo de distância geográfica e otimização da busca por proximidade utilizando o banco de dados geográfico.
-      </li>
-    </ul>
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-exclamation-circle"></i> Desafios:</strong> Informações a serem definidas.
+    </p>
 
     <!-- Resultados e Próximos Passos -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> 
-      A plataforma foi desenvolvida com sucesso, permitindo uma busca eficiente e precisa por POIs em um raio de distância determinado. A integração de serviços REST com a base de dados geográfica oferece alta performance e flexibilidade para futuros aprimoramentos.
+      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> Informações a serem definidas.
     </p>
   `;
 }
@@ -99,22 +95,23 @@ function getProject1Content() {
 function getProject2Content() {
   return `
     <!-- Título do Projeto -->
-    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">Sistema de Gerenciamento de Despesas</h2>
-    
+    <h2 style="font-family:'Poppins', sans-serif; margin-bottom:0.5rem; text-align:center;">A Decidir</h2>
+
     <!-- Descrição do Projeto -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Este sistema permite o gerenciamento de despesas pessoais, incluindo funcionalidades para adicionar, editar, visualizar e excluir despesas. Desenvolvido com <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Java</strong> e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Spring MVC</strong>, com <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">Thymeleaf</strong> para renderização de páginas e 
-      <strong style="background: linear-gradient(90deg, #2E8B57, #60A982); -webkit-background-clip: text; color: transparent;">MySQL</strong> para persistência de dados.
+      <strong><i class="fas fa-info-circle"></i> Descrição do Projeto:</strong> Informações a serem definidas.
     </p>
 
      <!-- Links do Projeto -->
     <div class="project-links" style="margin:1rem 0; display:flex; justify-content:center; gap:1rem;">
-      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none;  display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fab fa-github" style="font-size:1.2rem;"></i> GitHub
       </a>
-      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+      <a href="#" target="_blank" style="text-decoration:none;  display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
         <i class="fas fa-eye" style="font-size:1.2rem;"></i> Visualizar ao Vivo
+      </a>
+      <a href="#" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem; font-size:1rem; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;">
+        <i class="fas fa-file-pdf" style="font-size:1.2rem;"></i> Relatório
       </a>
     </div>
 
@@ -124,8 +121,8 @@ function getProject2Content() {
         <i class="fas fa-images" style="margin-right:0.5rem;"></i> Galeria do Projeto
       </h3>
       <div class="gallery-images" style="display:flex; flex-wrap:wrap; gap:1rem;">
-        <img src="images/portfolio/expense-tracker-1.jpg" alt="Tela de Adição de Despesas" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
-        <img src="images/portfolio/expense-tracker-2.jpg" alt="Visualização de Despesas" style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-1.jpg" alt="A Decidir..." style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
+        <img src="images/portfolio/expense-tracker-2.jpg" alt="A Decidir..." style="width:100%; max-width:300px; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2);" />
       </div>
     </div>
 
@@ -133,20 +130,13 @@ function getProject2Content() {
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
       <strong><i class="fas fa-tools"></i> Desafios e Soluções:</strong>
     </p>
-    <ul style="padding-left: 20px; font-family:'Poppins', sans-serif; line-height:1.6;">
-      <li>
-        <strong><i class="fas fa-exclamation-circle"></i> Desafio 1:</strong> Calcular e exibir o total de despesas em tempo real para o usuário.
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Implementação de cálculo dinâmico utilizando streams do Java para somar os valores das despesas e exibir o total na interface do usuário.
-      </li>
-      <li>
-        <strong><i class="fas fa-exclamation-circle"></i> Desafio 2:</strong> Facilitar a adição e edição de despesas através de uma interface intuitiva.
-        <br><strong><i class="fas fa-check-circle"></i> Solução:</strong> Uso do Thymeleaf para criar formulários amigáveis e simplificados que permitam interações diretas com o backend através de mapeamentos Spring MVC.
-      </li>
-    </ul>
-    
+    <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
+      <strong><i class="fas fa-exclamation-circle"></i> Desafios:</strong> Informações a serem definidas.
+    </p>
+
     <!-- Resultados e Próximos Passos -->
     <p style="font-family:'Poppins', sans-serif; line-height:1.6; margin-bottom:1rem;">
-      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> A aplicação está funcionando conforme esperado, permitindo um controle eficaz das despesas. Os próximos passos incluem a integração de gráficos para melhor visualização dos dados financeiros e a implementação de um sistema de notificações para alertar sobre despesas recorrentes ou limites de gastos.
+      <strong><i class="fas fa-trophy"></i> Resultados e Próximos Passos:</strong> Informações a serem definidas.
     </p>
   `;
 }
@@ -256,25 +246,27 @@ document.addEventListener("DOMContentLoaded", function () {
 const { annotate } = RoughNotation;
 
         const elements = [
-          { id: 'backend', color: '#98FF98' }, // Verde Menta
-          { id: 'eficientes', color: '#FFDAB9' }, // Pêssego Claro
-          { id: 'escalaveis', color: '#ADD8E6' }, // Azul Claro
+          { id: 'dados', color: '#98FF98' }, // Verde Menta
+          { id: 'insights', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'decisoes', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'crescimento', color: '#ADD8E6' }, // Azul Claro
           { id: 'ciencia', color: '#98FF98' }, // Verde Menta
           { id: 'ficcao', color: '#FFDAB9' }, // Pêssego Claro
           { id: 'cinema', color: '#ADD8E6' }, // Azul Claro
           { id: 'programacao', color: '#98FF98' }, // Verde Menta
-          { id: 'tecnologia', color: '#FFDAB9' }, // Pêssego Claro
-          { id: 'paixao', color: '#ADD8E6' }, // Azul Claro
+          { id: 'analise', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'solucoes', color: '#ADD8E6' }, // Amarelo Claro (para "soluções que realmente façam a diferença")
+          { id: 'diferenca', color: '#FFFFE0' }, // Amarelo Claro
           { id: 'habilidades', color: '#98FF98' }, // Verde Menta
-          { id: 'conhecimentos', color: '#FFDAB9' }, // Pêssego Claro
-          { id: 'problemas', color: '#ADD8E6' }, // Azul Claro
-          { id: 'solucoes', color: '#98FF98' }, // Verde Menta
-          { id: 'eficientes', color: '#FFDAB9' }, // Pêssego Claro
-          { id: 'inovadores', color: '#ADD8E6' }, // Azul Claro
+          { id: 'analiseDeDados', color: '#98FF98' }, // Verde Menta
+          { id: 'visualizacao', color: '#FFDAB9' }, // Pêssego Claro
+          { id: 'machineLearning', color: '#ADD8E6' }, // Azul Claro
           { id: 'aprender', color: '#98FF98' }, // Verde Menta
           { id: 'crescer', color: '#FFDAB9' }, // Pêssego Claro
-          { id: 'incrivel', color: '#ADD8E6' }, // Azul Claro
+          { id: 'incrivel', color: '#ADD8E6' } // Azul Claro
+
         ];
+
 
         // Função para adicionar destaque com atraso
         function highlightElementsSequentially(elements, delay) {

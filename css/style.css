@@ -8404,24 +8404,24 @@ a.smllbtnn {
 
 /* Estilo do modal */
 .modal-content {
-  background-color: #ffffff; /* Cor branca mais pura */
-  margin: 80px auto; /* Margem fixa em pixels */
+  background-color: #ffffff; /* Cor branca */
+  margin: 80px auto; /* Margem fixa */
   padding: 30px;
-  border: none; /* Remove a borda padrão */
-  width: 90%; /* Ajuste a largura para telas pequenas */
-  max-width: 700px; /* Reduzido para um layout mais elegante */
-  max-height: 85%;
-  border-radius: 4px 4px 4px 4px; /* Bordas mais arredondadas para um visual mais suave */
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Sombra mais suave e difusa */
+  border: none; /* Remove borda */
+  width: 900px; /* Largura fixa de 900px */
+  max-width: 900px; /* Define o limite máximo de largura */
+  max-height: 700px; /* Define a altura máxima de 700px */
+  border-radius: 4px; /* Bordas arredondadas */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Sombra suave */
   font-family: 'Poppins', sans-serif;
   position: relative;
-  overflow-y: auto; /* Permite rolar o conteúdo se necessário */
-  animation: modalFadeIn 0.3s ease-in-out; /* Animação de entrada suave */
-  /* Suavização do overflow com padding extra */
-  padding-right: calc(30px + 6px); /* Evita sobreposição da barra de rolagem */
+  overflow-y: auto; /* Permite rolagem */
+  animation: modalFadeIn 0.3s ease-in-out; /* Animação de entrada */
+  padding-right: calc(30px + 6px); /* Padding para evitar sobreposição da barra de rolagem */
+  
   /* Customização da barra de rolagem para navegadores WebKit */
-  scrollbar-width: thin; /* Para navegadores Firefox */
-  scrollbar-color: #2E8B57 #f0f0f0; /* Cor da barra e do fundo (para Firefox) */
+  scrollbar-width: thin; /* Para Firefox */
+  scrollbar-color: #2E8B57 #f0f0f0; /* Cor para Firefox */
 }
 
 
